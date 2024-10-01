@@ -1,0 +1,31 @@
+﻿@inherits LayoutComponentBase
+
+@code {
+    // 이 코드는 Layout/MainLayout.razor 파일에 적용됩니다.
+    // 이 코드는 사이드바의 확장/축소 상태를 관리하는 데 사용됩니다.
+
+    // 사이드바의 상태를 토글하는 메서드입니다.
+}
+
+<div class="page">
+    <main style="flex: 1; display: flex; flex-direction: column;">
+        @Body
+    </main>
+</div>
+
+<style>
+    .page {
+        display: flex;
+        width: 100vw;
+        height: 100vh;
+        overflow: hidden;
+    }
+
+    main {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+    }
+</style>

@@ -1,0 +1,70 @@
+@page "/admin"
+@using MultiStepInputPage.Services
+@using MultiStepInputPage.Models
+@inject IFormDataService FormDataService
+
+<h3>관리자 페이지</h3>
+
+@if (formDataList == null)
+{
+    <p>로딩 중...</p>
+}
+else
+{
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>부스 번호</th>
+                <th>Beacon ID</th>
+                <th>회사명</th>
+                <th>제목</th>
+                <th>설명</th>
+                <th>제품 이미지</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var formData in formDataList.OrderBy(f => f.BoothNumber))
+            {
+                <tr>
+                    <td>@formData.BoothNumber</td>
+                    <td>@formData.BeaconId</td>
+                    <td>@formData.CompanyName</td>
+                    <td>@formData.Title</td>
+                    <td>@formData.Description</td>
+                    <td>@formData.ProductImageUrl</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    private List<FormData> formDataList;
+
+    protected override async Task OnInitializedAsync()
+    {
+        formDataList = await FormDataService.GetAllFormDataAsync();
+    }
+}
+
+<style>
+    .table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    .table th, .table td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: left;
+    }
+
+    .table th {
+        background-color: #f2f2f2;
+        font-weight: bold;
+    }
+
+    .table-striped tbody tr:nth-of-type(odd) {
+        background-color: #f9f9f9;
+    }
+</style>

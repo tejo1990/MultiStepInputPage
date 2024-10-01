@@ -1,0 +1,110 @@
+@inject HttpClient HttpClient
+@inject NavigationManager NavigationManager
+@inject IJSRuntime JSRuntime
+
+<div class="step-container">
+    <h4>Step 1: 로그인</h4>
+    <div class="form-group">
+        <label for="boothNumber">부스 번호:</label>
+        <input type="number" id="boothNumber" class="form-control" @bind="boothNumber" min="1" max="150" />
+    </div>
+    <div class="form-group">
+        <label for="accessCode">접근 번호:</label>
+        <input type="text" id="accessCode" class="form-control" @bind="accessCode" maxlength="6" />
+    </div>
+    <button class="btn btn-primary" @onclick="HandleLogin">로그인</button>
+</div>
+
+@code {
+    private int boothNumber;
+    private string accessCode = "";
+    private List<string>? accessList;
+
+    [Parameter]
+    public EventCallback OnNext { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            var fileContent = await HttpClient.GetStringAsync("access.txt");
+            accessList = fileContent.Split('\n').ToList();
+        }
+        catch (HttpRequestException ex)
+        {
+            Console.WriteLine($"파일을 읽는 중 오류 발생: {ex.Message}");
+            await JSRuntime.InvokeVoidAsync("alert", "접근 정보를 로드하는 데 실패했습니다.");
+        }
+    }
+
+    private async Task HandleLogin()
+    {
+        if (accessList == null)
+        {
+            await JSRuntime.InvokeVoidAsync("alert", "접근 정보가 로드되지 않았습니다. 페이지를 새로고침해 주세요.");
+            return;
+        }
+
+        var validAccess = accessList.FirstOrDefault(line => 
+        {
+            var parts = line.Split('=');
+            return parts.Length == 2 && parts[0] == boothNumber.ToString() && parts[1].Trim() == accessCode;
+        });
+
+        if (validAccess != null)
+        {
+            await JSRuntime.InvokeVoidAsync("alert", "로그인 성공!");
+            await OnNext.InvokeAsync();
+        }
+        else
+        {
+            await JSRuntime.InvokeVoidAsync("alert", "부스 번호 또는 접근 번호가 올바르지 않습니다.");
+        }
+    }
+}
+
+<style>
+    .step-container {
+        background-color: #34495e;
+        padding: 20px;
+        border-radius: 8px;
+        width: 100%;
+        max-width: 400px;
+    }
+
+    .form-group {
+        margin-bottom: 15px;
+    }
+
+    .form-control {
+        width: 100%;
+        padding: 8px;
+        border: none;
+        border-radius: 4px;
+        background-color: #ecf0f1;
+        color: #2c3e50;
+    }
+
+    .btn {
+        padding: 10px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-weight: bold;
+    }
+
+    .btn-primary {
+        background-color: #3498db;
+        color: #fff;
+    }
+
+    .btn-primary:hover {
+        background-color: #2980b9;
+    }
+
+    label {
+        color: #ecf0f1;
+        display: block;
+        margin-bottom: 5px;
+    }
+</style>

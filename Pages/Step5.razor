@@ -1,0 +1,190 @@
+@using System.IO
+@using Microsoft.AspNetCore.Components.Forms
+
+@code {
+    [Parameter]
+    public EventCallback OnPrevious { get; set; }
+    [Parameter]
+    public EventCallback OnSubmit { get; set; }
+
+    private void GoPrevious()
+    {
+        if (OnPrevious.HasDelegate)
+        {
+            OnPrevious.InvokeAsync();
+        }
+    }
+
+    private void Submit()
+    {
+        if (OnSubmit.HasDelegate)
+        {
+            OnSubmit.InvokeAsync();
+        }
+    }
+
+    private IBrowserFile selectedFile;
+    private string imageUrl;
+    private string errorMessage;
+    private bool isUploading = false;
+
+    private void OnInputFileChange(InputFileChangeEventArgs e)
+    {
+        selectedFile = e.File;
+        errorMessage = null;
+    }
+
+    private async Task UploadImage()
+    {
+        if (selectedFile != null)
+        {
+            isUploading = true;
+            try
+            {
+                var buffer = new byte[selectedFile.Size];
+                await selectedFile.OpenReadStream().ReadAsync(buffer);
+                var imageBase64 = Convert.ToBase64String(buffer);
+                imageUrl = $"data:{selectedFile.ContentType};base64,{imageBase64}";
+                errorMessage = null;
+            }
+            catch (Exception ex)
+            {
+                errorMessage = "이미지 업로드 중 오류가 발생했습니다: " + ex.Message;
+            }
+            finally
+            {
+                isUploading = false;
+            }
+        }
+        else
+        {
+            errorMessage = "업로드할 이미지를 선택해주세요.";
+        }
+    }
+}
+
+<h4>Step 5: 포스터 업로드</h4>
+<div class="step-container">
+    <p>게시하고자 하는 이미지를 업로드 해주세요.</p>
+    
+    <div class="form-group">
+        <InputFile OnChange="OnInputFileChange" class="form-control" accept="image/*" />
+    </div>
+
+    @if (selectedFile != null)
+    {
+        <p>선택된 파일: @selectedFile.Name</p>
+    }
+
+    <button class="btn btn-success" @onclick="UploadImage" disabled="@isUploading">
+        @if (isUploading)
+        {
+            <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+            <span>업로드 중...</span>
+        }
+        else
+        {
+            <span>업로드</span>
+        }
+    </button>
+
+    @if (!string.IsNullOrEmpty(errorMessage))
+    {
+        <div class="alert alert-danger mt-3">@errorMessage</div>
+    }
+
+    @if (!string.IsNullOrEmpty(imageUrl))
+    {
+        <div class="image-preview mt-3">
+            <img src="@imageUrl" alt="업로드된 이미지" />
+        </div>
+    }
+
+    <div class="button-group mt-4">
+        <button class="btn btn-secondary" @onclick="GoPrevious">이전</button>
+        <button class="btn btn-primary" @onclick="Submit">제출</button>
+    </div>
+</div>
+
+<style>
+    .step-container {
+        background-color: #34495e;
+        padding: 20px;
+        border-radius: 8px;
+        width: 100%;
+        max-width: 400px;
+    }
+
+    .form-group {
+        margin-bottom: 15px;
+    }
+
+    .form-control {
+        width: 100%;
+        padding: 8px;
+        border: none;
+        border-radius: 4px;
+        background-color: #ecf0f1;
+        color: #2c3e50;
+    }
+
+    .btn {
+        padding: 10px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-weight: bold;
+    }
+
+    .btn-primary {
+        background-color: #3498db;
+        color: #fff;
+    }
+
+    .btn-primary:hover {
+        background-color: #2980b9;
+    }
+
+    .image-preview {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .image-preview img {
+        max-width: 100%;
+        max-height: 300px;
+        object-fit: contain;
+    }
+
+    .button-group {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+
+    .alert-danger {
+        background-color: #e74c3c;
+        color: #fff;
+        padding: 10px;
+        border-radius: 4px;
+        margin-top: 10px;
+    }
+
+    .btn-success {
+        background-color: #2ecc71;
+        color: #fff;
+    }
+
+    .btn-success:hover {
+        background-color: #27ae60;
+    }
+
+    .btn-success:disabled {
+        background-color: #95a5a6;
+        cursor: not-allowed;
+    }
+
+    .spinner-border {
+        margin-right: 5px;
+    }
+</style>

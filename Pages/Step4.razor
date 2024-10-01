@@ -1,0 +1,70 @@
+@code {
+    [Parameter]
+    public EventCallback OnNext { get; set; }
+    [Parameter]
+    public EventCallback OnPrevious { get; set; }
+
+    private void GoNext()
+    {
+        if (OnNext.HasDelegate)
+        {
+            OnNext.InvokeAsync();
+        }
+    }
+
+    private void GoPrevious()
+    {
+        if (OnPrevious.HasDelegate)
+        {
+            OnPrevious.InvokeAsync();
+        }
+    }
+}
+
+<h4>Step 4: Description</h4>
+<div>
+    <input type="text" />
+</div>
+<button class="btn btn-primary" @onclick="GoPrevious">Previous</button>
+<button class="btn btn-primary" @onclick="GoNext">Next</button>
+
+
+<style>
+    .step-container {
+        background-color: #34495e;
+        padding: 20px;
+        border-radius: 8px;
+        width: 100%;
+        max-width: 400px;
+    }
+
+    .form-group {
+        margin-bottom: 15px;
+    }
+
+    .form-control {
+        width: 100%;
+        padding: 8px;
+        border: none;
+        border-radius: 4px;
+        background-color: #ecf0f1;
+        color: #2c3e50;
+    }
+
+    .btn {
+        padding: 10px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-weight: bold;
+    }
+
+    .btn-primary {
+        background-color: #3498db;
+        color: #fff;
+    }
+
+    .btn-primary:hover {
+        background-color: #2980b9;
+    }
+</style>
