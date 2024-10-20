@@ -1,33 +1,269 @@
+@using Firebase.Storage
+@using Microsoft.AspNetCore.Hosting
+@using System.Net
+@using System.Net.Http.Headers
+@inject HttpClient HttpClient
+@inject IConfiguration Configuration
+@inject IJSRuntime JSRuntime
+@inject BoothStateService BoothState
+@inject IDataService DataService
+
 @code {
     [Parameter]
-    public EventCallback OnNext { get; set; }
-    [Parameter]
     public EventCallback OnPrevious { get; set; }
-
-    private void GoNext()
-    {
-        if (OnNext.HasDelegate)
-        {
-            OnNext.InvokeAsync();
-        }
-    }
+    [Parameter]
+    public EventCallback OnSubmit { get; set; }
+    [Parameter]
+    public int BoothNumber { get; set; }
+    [Parameter]
+    public EventCallback OnReturnToStep1 { get; set; }
 
     private void GoPrevious()
     {
         if (OnPrevious.HasDelegate)
         {
-            OnPrevious.InvokeAsync();
+            OnPrevious.InvokeAsync();  // 이전 단계로 이동
+        }
+    }
+
+    private async Task Submit()
+    {
+        if (string.IsNullOrEmpty(imageUrl))
+        {
+            await JSRuntime.InvokeVoidAsync("alert", "이미지를 먼저 업로드해주세요.");
+            return;
+        }
+
+        try {
+            BoothState.Step5Data = imageUrl;
+
+            // BoothNumber 확인
+            Console.WriteLine($"step4 BoothNumber: {BoothState.BoothNumber}");
+
+            var boothData = new BoothData
+            {
+                BoothNumber = BoothState.BoothNumber,
+                Step3Data = BoothState.Step3Data,
+                Step4Data = BoothState.Step4Data,
+                Step5Data = BoothState.Step5Data
+            };
+
+            bool success = await SaveBoothDataToApi(boothData);
+
+            if (success)
+            {
+                await JSRuntime.InvokeVoidAsync("alert", "데이터가 성공적으로 저장되었습니다.");
+                if (OnReturnToStep1.HasDelegate)
+                {
+                    await OnReturnToStep1.InvokeAsync();  // Step 1으로 돌아가기
+                }
+            }
+            else
+            {
+                await JSRuntime.InvokeVoidAsync("alert", "데이터 저장 중 오류가 발생했습니다.");
+            }
+        }
+        catch (Exception ex)
+        {
+            await JSRuntime.InvokeVoidAsync("alert", $"오류 발생: {ex.Message}");
+        }
+    }
+
+    private async Task<bool> SaveBoothDataToApi(BoothData boothData)
+    {
+        string apiUrl = "http://chicline-beauty.com/api/";
+        string endpoint; 
+        var torf = await CheckBoothExistence(boothData.BoothNumber);
+        Console.WriteLine($"CheckBoothExistence: {torf}");
+        endpoint = torf ? "updateDB.php" : "createDB.php";
+
+        var content = new StringContent(System.Text.Json.JsonSerializer.Serialize(boothData), System.Text.Encoding.UTF8, "application/json");
+
+        var response = await HttpClient.PostAsync(apiUrl + endpoint, content);
+
+        return response.IsSuccessStatusCode;
+    }
+
+    private async Task<bool> CheckBoothExistence(string? boothNumber)
+    {
+        var response = await HttpClient.GetAsync($"http://chicline-beauty.com/api/checkBooth.php?boothNumber={boothNumber}");
+        Console.WriteLine($"CheckBoothExistence response: {response.ToString()}");
+        var responseContent = await response.Content.ReadAsStringAsync();
+        
+        Console.WriteLine($"CheckBoothExistence responseContent: {responseContent.Contains("true")}");
+        if (responseContent.Contains("true")) return true;
+        else return false;
+    }
+
+    private IBrowserFile selectedFile;
+    private string imageUrl;
+    private string errorMessage;
+    private bool isUploading = false;
+
+    private void OnInputFileChange(InputFileChangeEventArgs e)
+    {
+        selectedFile = e.File;
+        errorMessage = null;
+    }
+
+    private async Task UploadImage()
+    {
+        if (selectedFile != null)
+        {
+            isUploading = true;
+            try
+            {
+                var stream = selectedFile.OpenReadStream(selectedFile.Size);
+
+                // Firebase 스토리지 인스턴스 생성
+                var storage = new FirebaseStorage("expo2024-f235b.appspot.com");
+
+                string formattedBoothNumber = BoothState.BoothNumber;
+                string imageName = $"{formattedBoothNumber}{Path.GetExtension(selectedFile.Name)}";
+                // 파일 업로드
+                var task = storage
+                    .Child("images")
+                    .Child(imageName)
+                    .PutAsync(stream);
+
+                // 업로드된 파일의 다운로드 URL 가져오기
+                imageUrl = await task;
+                errorMessage = null;
+                Console.WriteLine($"Uploaded file URL: {imageUrl}");
+            }
+            catch (Exception ex)
+            {
+                errorMessage = "이미지 업로드 중 오류가 발생했습니다: " + ex.Message;
+                Console.WriteLine($"예외 상세 정보: {ex}");
+            }
+            finally
+            {
+                isUploading = false;
+            }
+        }
+    }
+
+    private async Task UploadImage2()
+    {
+        if (selectedFile != null)
+        {
+            isUploading = true;
+            try
+            {
+                Console.WriteLine($"파일 업로드 시작: {selectedFile.Name}, 크기: {selectedFile.Size} 바이트");
+
+                using var content = new MultipartFormDataContent();
+                var stream = selectedFile.OpenReadStream(selectedFile.Size);
+                var streamContent = new StreamContent(stream);
+                
+                // 콘텐츠 타입 설정 및 로깅
+                streamContent.Headers.ContentType = new MediaTypeHeaderValue(selectedFile.ContentType);
+                Console.WriteLine($"설정된 Content-Type: {streamContent.Headers.ContentType}");
+                
+                // 파일 이름 인코딩 및 로깅
+                var fileName = WebUtility.UrlEncode(selectedFile.Name);
+                Console.WriteLine($"인코딩된 파일 이름: {fileName}");
+                content.Add(streamContent, "file", fileName);
+
+                using var httpClient = new HttpClient();
+                
+                // 요청 헤더 설정 및 로깅
+                httpClient.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("*/*"));
+                httpClient.DefaultRequestHeaders.UserAgent.ParseAdd("Blazor-Client");
+                Console.WriteLine("설정된 요청 헤더:");
+                foreach (var header in httpClient.DefaultRequestHeaders)
+                {
+                    Console.WriteLine($"{header.Key}: {string.Join(", ", header.Value)}");
+                }
+
+                Console.WriteLine("요청 전송 시작...");
+                var response = await httpClient.PostAsync("http://chicline-beauty.com/api/upload.php", content);
+                Console.WriteLine($"응답 수신: 상태 코드 {response.StatusCode}");
+
+                var responseContent = await response.Content.ReadAsStringAsync();
+                Console.WriteLine($"응답 내용: {responseContent}");
+
+                Console.WriteLine("응답 헤더:");
+                foreach (var header in response.Headers)
+                {
+                    Console.WriteLine($"{header.Key}: {string.Join(", ", header.Value)}");
+                }
+
+                if (response.IsSuccessStatusCode)
+                {
+                    imageUrl = responseContent;
+                    errorMessage = null;
+                    Console.WriteLine($"업로드 성공. 이미지 URL: {imageUrl}");
+                }
+                else
+                {
+                    errorMessage = $"이미지 업로드 중 오류가 발생했습니다. 상태 코드: {response.StatusCode}, 내용: {responseContent}";
+                    Console.WriteLine($"업로드 실패. 오류 메시지: {errorMessage}");
+                }
+            }
+            catch (Exception ex)
+            {
+                errorMessage = "이미지 업로드 중 예외가 발생했습니다: " + ex.Message;
+                Console.WriteLine($"예외 발생: {ex.GetType().Name}");
+                Console.WriteLine($"예외 메시지: {ex.Message}");
+                Console.WriteLine($"스택 트레이스: {ex.StackTrace}");
+            }
+            finally
+            {
+                isUploading = false;
+                Console.WriteLine("업로드 프로세스 종료");
+            }
+        }
+        else
+        {
+            errorMessage = "업로드할 이미지를 선택해주세요.";
+            Console.WriteLine("오류: 선택된 파일 없음");
         }
     }
 }
 
-<h4>Step 4: Description</h4>
-<div>
-    <input type="text" />
-</div>
-<button class="btn btn-primary" @onclick="GoPrevious">Previous</button>
-<button class="btn btn-primary" @onclick="GoNext">Next</button>
+<h4>Step 4: 포스터 업로드</h4>
+<div class="step-container">
+    <p>게시하고자 하는 이미지를 업로드 해주세요.</p>
+    
+    <div class="form-group">
+        <InputFile OnChange="OnInputFileChange" class="form-control" accept="image/*" />
+    </div>
 
+    @if (selectedFile != null)
+    {
+        <p>선택된 파일: @selectedFile.Name</p>
+    }
+
+    <button class="btn btn-success" @onclick="UploadImage" disabled="@isUploading">
+        @if (isUploading)
+        {
+            <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+            <span>업로드 중...</span>
+        }
+        else
+        {
+            <span>업로드</span>
+        }
+    </button>
+
+    @if (!string.IsNullOrEmpty(errorMessage))
+    {
+        <div class="alert alert-danger mt-3">@errorMessage</div>
+    }
+
+    @if (!string.IsNullOrEmpty(imageUrl))
+    {
+        <div class="image-preview mt-3">
+            <img src="@imageUrl" alt="업로드된 이미지" />
+        </div>
+    }
+
+    <div class="button-group mt-4">
+        <button class="btn btn-secondary" @onclick="GoPrevious">이전</button>
+        <button class="btn btn-primary" @onclick="Submit">제출</button>
+    </div>
+</div>
 
 <style>
     .step-container {
@@ -66,5 +302,48 @@
 
     .btn-primary:hover {
         background-color: #2980b9;
+    }
+
+    .image-preview {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .image-preview img {
+        max-width: 100%;
+        max-height: 300px;
+        object-fit: contain;
+    }
+
+    .button-group {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+
+    .alert-danger {
+        background-color: #e74c3c;
+        color: #fff;
+        padding: 10px;
+        border-radius: 4px;
+        margin-top: 10px;
+    }
+
+    .btn-success {
+        background-color: #2ecc71;
+        color: #fff;
+    }
+
+    .btn-success:hover {
+        background-color: #27ae60;
+    }
+
+    .btn-success:disabled {
+        background-color: #95a5a6;
+        cursor: not-allowed;
+    }
+
+    .spinner-border {
+        margin-right: 5px;
     }
 </style>

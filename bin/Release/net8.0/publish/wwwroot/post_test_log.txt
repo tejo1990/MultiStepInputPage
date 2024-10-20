@@ -1,0 +1,99 @@
+2024-10-06 01:06:41 - 받은 데이터: Array
+(
+    [id] => 
+    [booth_number] => TEST-001
+    [beacon_id] => BEACON-TEST
+    [company_name] => 테스트 회사
+    [title] => 테스트 제목
+    [description] => 이것은 POST 요청 테스트입니다.
+    [product_image_url] => https://example.com/test-image.jpg
+)
+
+2024-10-06 01:06:42 - 받은 데이터: Array
+(
+    [id] => 
+    [booth_number] => TEST-001
+    [beacon_id] => BEACON-TEST
+    [company_name] => 테스트 회사
+    [title] => 테스트 제목
+    [description] => 이것은 POST 요청 테스트입니다.
+    [product_image_url] => https://example.com/test-image.jpg
+)
+
+2024-10-06 01:06:45 - 받은 데이터: Array
+(
+    [id] => 
+    [booth_number] => TEST-001
+    [beacon_id] => BEACON-TEST
+    [company_name] => 테스트 회사
+    [title] => 테스트 제목
+    [description] => 이것은 POST 요청 테스트입니다.
+    [product_image_url] => https://example.com/test-image.jpg
+)
+
+2024-10-06 01:06:52 - 받은 데이터: Array
+(
+    [id] => 
+    [booth_number] => TEST-001
+    [beacon_id] => BEACON-TEST
+    [company_name] => 테스트 회사
+    [title] => 테스트 제목
+    [description] => 이것은 POST 요청 테스트입니다.
+    [product_image_url] => https://example.com/test-image.jpg
+)
+
+2024-10-06 01:06:52 - 받은 데이터: Array
+(
+    [id] => 
+    [booth_number] => TEST-001
+    [beacon_id] => BEACON-TEST
+    [company_name] => 테스트 회사
+    [title] => 테스트 제목
+    [description] => 이것은 POST 요청 테스트입니다.
+    [product_image_url] => https://example.com/test-image.jpg
+)
+
+2024-10-06 01:06:53 - 받은 데이터: Array
+(
+    [id] => 
+    [booth_number] => TEST-001
+    [beacon_id] => BEACON-TEST
+    [company_name] => 테스트 회사
+    [title] => 테스트 제목
+    [description] => 이것은 POST 요청 테스트입니다.
+    [product_image_url] => https://example.com/test-image.jpg
+)
+
+2024-10-06 01:11:40 - 받은 데이터: Array
+(
+    [id] => 
+    [booth_number] => TEST-001
+    [beacon_id] => BEACON-TEST
+    [company_name] => 테스트 회사
+    [title] => 테스트 제목
+    [description] => 이것은 POST 요청 테스트입니다.
+    [product_image_url] => https://example.com/test-image.jpg
+)
+
+2024-10-06 01:11:41 - 받은 데이터: Array
+(
+    [id] => 
+    [booth_number] => TEST-001
+    [beacon_id] => BEACON-TEST
+    [company_name] => 테스트 회사
+    [title] => 테스트 제목
+    [description] => 이것은 POST 요청 테스트입니다.
+    [product_image_url] => https://example.com/test-image.jpg
+)
+
+2024-10-06 01:19:12 - 받은 데이터: Array
+(
+    [id] => 
+    [booth_number] => TEST-001
+    [beacon_id] => BEACON-TEST
+    [company_name] => 테스트 회사
+    [title] => 테스트 제목
+    [description] => 이것은 POST 요청 테스트입니다.
+    [product_image_url] => https://example.com/test-image.jpg
+)
+

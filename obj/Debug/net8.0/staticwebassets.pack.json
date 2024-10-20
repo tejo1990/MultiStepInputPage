@@ -17,6 +17,10 @@
       "PackagePath": "staticwebassets\\access.txt"
     },
     {
+      "Id": "D:\\Csharp\\MultiStepInputPage\\wwwroot\\access1.txt",
+      "PackagePath": "staticwebassets\\access1.txt"
+    },
+    {
       "Id": "D:\\Csharp\\MultiStepInputPage\\wwwroot\\css\\app.css",
       "PackagePath": "staticwebassets\\css\\app.css"
     },
@@ -35,6 +39,10 @@
     {
       "Id": "D:\\Csharp\\MultiStepInputPage\\wwwroot\\icon-192.png",
       "PackagePath": "staticwebassets\\icon-192.png"
+    },
+    {
+      "Id": "D:\\Csharp\\MultiStepInputPage\\wwwroot\\images\\test-image.png",
+      "PackagePath": "staticwebassets\\images\\test-image.png"
     },
     {
       "Id": "D:\\Csharp\\MultiStepInputPage\\wwwroot\\index.html",

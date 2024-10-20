@@ -1,70 +1,283 @@
 @page "/admin"
-@using MultiStepInputPage.Services
 @using MultiStepInputPage.Models
-@inject IFormDataService FormDataService
+@using Firebase.Storage
+@inject HttpClient HttpClient
+@inject IJSRuntime JSRuntime
+@inject IConfiguration Configuration
 
-<h3>관리자 페이지</h3>
-
-@if (formDataList == null)
-{
-    <p>로딩 중...</p>
-}
-else
-{
-    <table class="table table-striped">
-        <thead>
-            <tr>
-                <th>부스 번호</th>
-                <th>Beacon ID</th>
-                <th>회사명</th>
-                <th>제목</th>
-                <th>설명</th>
-                <th>제품 이미지</th>
-            </tr>
-        </thead>
-        <tbody>
-            @foreach (var formData in formDataList.OrderBy(f => f.BoothNumber))
-            {
+<div class="admin-container">
+    <div class="fixed-header">
+        <h3>Admin Page</h3>
+        <button class="btn btn-primary" @onclick="RefreshData">새로고침</button>
+        
+        <table class="table table-striped">
+            <thead>
                 <tr>
-                    <td>@formData.BoothNumber</td>
-                    <td>@formData.BeaconId</td>
-                    <td>@formData.CompanyName</td>
-                    <td>@formData.Title</td>
-                    <td>@formData.Description</td>
-                    <td>@formData.ProductImageUrl</td>
+                    <th>부스 번호</th>
+                    <th>Beacon ID</th>
+                    <th>Company Name</th>
+                    <th>Description</th>
+                    <th>Postimage_Url</th>
+                    <th>Youtube_Url</th>
                 </tr>
-            }
-        </tbody>
-    </table>
-}
+            </thead>
+        </table>
+    </div>
+
+    <div class="scrollable-content">
+        @if (isLoading)
+        {
+            <p>로딩 중...</p>
+        }
+        else if (formDataList == null)
+        {
+            <p>데이터를 불러오는 데 실패했습니다.</p>
+        }
+        else
+        {
+            <table class="table table-striped">
+                <tbody>
+                    @foreach (var formData in formDataList)
+                    {
+                        <tr>
+                            <td>@formData.BoothNumber</td>
+                            <td>@formData.BeaconId</td>
+                            <td>@formData.CompanyName</td>
+                            <td>@formData.Description</td>
+                            <td>@formData.PostImageUrl</td>
+                            <td>@formData.YoutubeUrl</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        }
+    </div>
+</div>
 
 @code {
     private List<FormData> formDataList;
+    private string apiUrl = "http://chicline-beauty.com/api/getAllData.php";
+    private bool isLoading = true;
+    private string imageName = "";
+    private string bucketName;
+    private FirebaseStorage storage;
 
     protected override async Task OnInitializedAsync()
     {
-        formDataList = await FormDataService.GetAllFormDataAsync();
+        bucketName = "expo2024-f235b.appspot.com";
+        if (string.IsNullOrEmpty(bucketName))
+        {
+            Console.WriteLine("버킷 이름이 설정되지 않았습니다.");
+            bucketName = "expo2024-f235b.appspot.com"; // 기본값 설정
+        }
+        storage = new FirebaseStorage(bucketName);
+        await FetchDataFromApi();
+    }
+
+    private async Task RefreshData()
+    {
+        // 여기에 저장 로직을 구현하세요
+        await FetchDataFromApi();
+    }
+
+    private async Task TestPostRequest()
+    {
+        try
+        {
+            var testData = new FormData
+            {
+                BoothNumber = "TEST-001",
+                BeaconId = "BEACON-TEST",
+                CompanyName = "테스트 회사",
+                Description = "이것은 POST 요청 테스트입니다.",
+                PostImageUrl = "https://example.com/test-image.jpg",
+                YoutubeUrl = "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+            };
+
+            var json = System.Text.Json.JsonSerializer.Serialize(testData);
+            var content = new StringContent(json, System.Text.Encoding.UTF8, "application/json");
+
+            var response = await HttpClient.PostAsync("http://chicline-beauty.com/api/upload.php", content);
+
+            if (response.IsSuccessStatusCode)
+            {
+                Console.WriteLine("POST 테스트 성공");
+                await FetchDataFromApi(); // 데이터 새로고침
+            }
+            else
+            {
+                Console.WriteLine($"POST 테스트 실패: {response.StatusCode}");
+            }
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"POST 테스트 오류: {ex.Message}");
+        }
+    }
+
+    private async Task ViewImage()
+    {
+        if (string.IsNullOrWhiteSpace(imageName))
+        {
+            await JSRuntime.InvokeVoidAsync("alert", "이미지 이름을 입력해주세요.");
+            return;
+        }
+
+        try
+        {
+            if (storage == null)
+            {
+                throw new InvalidOperationException("Firebase Storage가 초기화되지 않았습니다.");
+            }
+
+            var imageUrl = await storage
+                .Child("images")
+                .Child(imageName)
+                .GetDownloadUrlAsync();
+
+            if (string.IsNullOrEmpty(imageUrl))
+            {
+                throw new Exception("이미지 URL을 가져오지 못했습니다.");
+            }
+
+            await JSRuntime.InvokeVoidAsync("window.open", imageUrl, "_blank");
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"이미지 다운로드 오류: {ex.Message}");
+            await JSRuntime.InvokeVoidAsync("alert", $"이미지 다운로드 중 오류가 발생했습니다: {ex.Message}");
+        }
+    }
+
+    private async Task FetchDataFromApi()
+    {
+        try
+        {
+            isLoading = true;
+            StateHasChanged();
+
+            var response = await HttpClient.GetAsync(apiUrl);
+            var content = await response.Content.ReadAsStringAsync();
+            Console.WriteLine($"API 응답: {content}"); // 디버깅용 로그
+
+            if (response.IsSuccessStatusCode)
+            {
+                if (!string.IsNullOrWhiteSpace(content))
+                {
+                    formDataList = System.Text.Json.JsonSerializer.Deserialize<List<FormData>>(content);
+                }
+                else
+                {
+                    Console.WriteLine("API 응답이 비어 있습니다.");
+                    formDataList = new List<FormData>();
+                }
+            }
+            else
+            {
+                Console.WriteLine($"API 호출 실패: {response.StatusCode}");
+                formDataList = null;
+            }
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"오류: {ex.Message}");
+            formDataList = null;
+        }
+        finally
+        {
+            isLoading = false;
+            StateHasChanged();
+        }
     }
 }
 
 <style>
+    body, html {
+        background-color: #2c3e50;
+        color: white;
+        margin: 0;
+        padding: 0;
+    }
+
+    .admin-container {
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        background-color: #2c3e50;
+    }
+
+    .fixed-header {
+        position: sticky;
+        top: 0;
+        background-color: #2c3e50;
+        z-index: 1000;
+        padding: 10px;
+    }
+
+    h3 {
+        color: white;
+        margin: 0;
+        padding-bottom: 10px;
+    }
+
+    .btn-primary {
+        background-color: #3498db;
+        border-color: #3498db;
+        color: white;
+    }
+
+    .btn-primary:hover {
+        background-color: #2980b9;
+        border-color: #2980b9;
+    }
+
+    .scrollable-content {
+        flex-grow: 1;
+        overflow-y: auto;
+        background-color: #2c3e50;
+    }
+
     .table {
         width: 100%;
         border-collapse: collapse;
+        background-color: #2c3e50;
     }
 
     .table th, .table td {
-        border: 1px solid #ddd;
+        border: 1px solid #34495e;
         padding: 8px;
         text-align: left;
     }
 
     .table th {
-        background-color: #f2f2f2;
-        font-weight: bold;
+        background-color: #34495e;
+        color: white;
     }
 
-    .table-striped tbody tr:nth-of-type(odd) {
-        background-color: #f9f9f9;
+    .table tbody tr {
+        background-color: #2c3e50;
+    }
+
+    .table tbody tr:nth-child(even) {
+        background-color: #34495e;
+    }
+
+    .fixed-header .table {
+        margin-bottom: 0;
+    }
+
+    .scrollable-content .table {
+        margin-top: 0;
     }
 </style>
+
+<script>
+    function downloadImage(fileName, base64Image, fileType) {
+        var link = document.createElement('a');
+        link.download = fileName;
+        link.href = `data:${fileType};base64,${base64Image}`;
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+    }
+</script>

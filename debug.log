@@ -1,0 +1,2329 @@
+Array
+(
+)
+
+Array
+(
+)
+
+
+Request Method: GET
+Content Type: 
+Raw input: 
+2024-10-06 03:08:08 - 접근 확인
+Array
+(
+)
+
+Array
+(
+)
+
+
+Request Method: GET
+Content Type: 
+Raw input: 
+2024-10-06 03:09:42 - 접근 확인
+Array
+(
+)
+
+Array
+(
+)
+
+
+Request Method: GET
+Content Type: 
+Raw input: 
+2024-10-06 03:26:47 - 접근 확인
+Array
+(
+)
+
+Array
+(
+)
+
+{"BoothNumber":0,"ImageData":"iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAABmJLR0QA/wD/AP\u002BgvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH4gUeACkqcIPpyAAAAr9JREFUeNrtnT1OBDEMhV8sIRqEuAKi5w5LvQVchAJxDu7CCbgKl6BBwNKARMVuZifxs/1eDTuOv/w4GTsDSJIkSZIkSZIkSaXV5II\u002B7YCXf5y5cQGyA84BXAF42vPjmwog1mx36zTq8gu4sD0gsoHpgfFHNw3YjQZyD\u002BBuIflNIRiL22wdhl0D2Ho0LCKMpf9vHX97BuDEs4GRYAxdQ34W8ecVH7qpBKOnvVap90Ww7SAg78BbBSgMNh0E5BT4zD5SWGwxOYKrY1j13sk2dRqLIR6OYVzHjMmYmQ6a9azeEN9G/TCzo5jDbmM0aqTDZsIYepY1e4c9wnERjm5axl7GAGOp3S3r0I8I4yggUaBEgnE0EHYoEafWVZIcGBseEcZqQNgcEBXGqvsQlpA44qviISOEoXdGW8CnAPGCkgHGMCAZpg6v6XloKmlGKKPXyuG5vZmgzAhcpiRbZ4AyK4qclv0eGcrMkH5qOUI0KB4JfdPrQ6JA8cqudCnYYYfimepq1RocYGT6iXGkeHcW9xpDJigMI5ei6JMBCss0SlOF6wmFaU2jKov2gMIWYFAmylWO9spPWWxQtKhrDeEMexVlEW4MS\u002B9DWM\u002BzSu7UdbhIBETH79qHRAvDNTqYRoreqZNBURoQGRQlypFBUSopGRTLACN6dXCqsPcXRhYoqepDGJ5PBYTFGZGhpKwxjAwlbRVuVCip69QjQkl/k0M0KCXuOolkb5nbgKLY3arAiGJ/qwQjQjtaNRjs7bGKMGY\u002Bp1dUh4sOr0vpblo1ltHhWGSp7Hc2pzBBseow2OwwOYHLHhMMLrtUp05mnwnGeDtX3Rh6GVZ1pJhGxnC7t6sDWeGlS\u002Bi7TY6w/6F1fuFu\u002BAddslw0s\u002BCa80cArwue06dZn7Fm1h4f3AL4aAu//TjkFa6uX5IkSZIkSZIkSZKkhfoGjkDognNzYAwAAAAASUVORK5CYII=","FileName":"off.png","ContentType":"image/png"}
+Request Method: POST
+Content Type: application/json; charset=utf-8
+Raw input: {"BoothNumber":0,"ImageData":"iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAABmJLR0QA/wD/AP\u002BgvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH4gUeACkqcIPpyAAAAr9JREFUeNrtnT1OBDEMhV8sIRqEuAKi5w5LvQVchAJxDu7CCbgKl6BBwNKARMVuZifxs/1eDTuOv/w4GTsDSJIkSZIkSZIkSaXV5II\u002B7YCXf5y5cQGyA84BXAF42vPjmwog1mx36zTq8gu4sD0gsoHpgfFHNw3YjQZyD\u002BBuIflNIRiL22wdhl0D2Ho0LCKMpf9vHX97BuDEs4GRYAxdQ34W8ecVH7qpBKOnvVap90Ww7SAg78BbBSgMNh0E5BT4zD5SWGwxOYKrY1j13sk2dRqLIR6OYVzHjMmYmQ6a9azeEN9G/TCzo5jDbmM0aqTDZsIYepY1e4c9wnERjm5axl7GAGOp3S3r0I8I4yggUaBEgnE0EHYoEafWVZIcGBseEcZqQNgcEBXGqvsQlpA44qviISOEoXdGW8CnAPGCkgHGMCAZpg6v6XloKmlGKKPXyuG5vZmgzAhcpiRbZ4AyK4qclv0eGcrMkH5qOUI0KB4JfdPrQ6JA8cqudCnYYYfimepq1RocYGT6iXGkeHcW9xpDJigMI5ei6JMBCss0SlOF6wmFaU2jKov2gMIWYFAmylWO9spPWWxQtKhrDeEMexVlEW4MS\u002B9DWM\u002BzSu7UdbhIBETH79qHRAvDNTqYRoreqZNBURoQGRQlypFBUSopGRTLACN6dXCqsPcXRhYoqepDGJ5PBYTFGZGhpKwxjAwlbRVuVCip69QjQkl/k0M0KCXuOolkb5nbgKLY3arAiGJ/qwQjQjtaNRjs7bGKMGY\u002Bp1dUh4sOr0vpblo1ltHhWGSp7Hc2pzBBseow2OwwOYHLHhMMLrtUp05mnwnGeDtX3Rh6GVZ1pJhGxnC7t6sDWeGlS\u002Bi7TY6w/6F1fuFu\u002BAddslw0s\u002BCa80cArwue06dZn7Fm1h4f3AL4aAu//TjkFa6uX5IkSZIkSZIkSZKkhfoGjkDognNzYAwAAAAASUVORK5CYII=","FileName":"off.png","ContentType":"image/png"}
+2024-10-06 07:38:20 - 접근 확인
+Array
+(
+)
+
+Array
+(
+)
+
+
+Request Method: POST
+Content Type: 
+Raw input: 
+2024-10-06 07:41:16 - 접근 확인
+Array
+(
+)
+
+Array
+(
+)
+
+{"BoothNumber":0,"ImageData":"iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAABmJLR0QA/wD/AP\u002BgvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH4gUeACkqcIPpyAAAAr9JREFUeNrtnT1OBDEMhV8sIRqEuAKi5w5LvQVchAJxDu7CCbgKl6BBwNKARMVuZifxs/1eDTuOv/w4GTsDSJIkSZIkSZIkSaXV5II\u002B7YCXf5y5cQGyA84BXAF42vPjmwog1mx36zTq8gu4sD0gsoHpgfFHNw3YjQZyD\u002BBuIflNIRiL22wdhl0D2Ho0LCKMpf9vHX97BuDEs4GRYAxdQ34W8ecVH7qpBKOnvVap90Ww7SAg78BbBSgMNh0E5BT4zD5SWGwxOYKrY1j13sk2dRqLIR6OYVzHjMmYmQ6a9azeEN9G/TCzo5jDbmM0aqTDZsIYepY1e4c9wnERjm5axl7GAGOp3S3r0I8I4yggUaBEgnE0EHYoEafWVZIcGBseEcZqQNgcEBXGqvsQlpA44qviISOEoXdGW8CnAPGCkgHGMCAZpg6v6XloKmlGKKPXyuG5vZmgzAhcpiRbZ4AyK4qclv0eGcrMkH5qOUI0KB4JfdPrQ6JA8cqudCnYYYfimepq1RocYGT6iXGkeHcW9xpDJigMI5ei6JMBCss0SlOF6wmFaU2jKov2gMIWYFAmylWO9spPWWxQtKhrDeEMexVlEW4MS\u002B9DWM\u002BzSu7UdbhIBETH79qHRAvDNTqYRoreqZNBURoQGRQlypFBUSopGRTLACN6dXCqsPcXRhYoqepDGJ5PBYTFGZGhpKwxjAwlbRVuVCip69QjQkl/k0M0KCXuOolkb5nbgKLY3arAiGJ/qwQjQjtaNRjs7bGKMGY\u002Bp1dUh4sOr0vpblo1ltHhWGSp7Hc2pzBBseow2OwwOYHLHhMMLrtUp05mnwnGeDtX3Rh6GVZ1pJhGxnC7t6sDWeGlS\u002Bi7TY6w/6F1fuFu\u002BAddslw0s\u002BCa80cArwue06dZn7Fm1h4f3AL4aAu//TjkFa6uX5IkSZIkSZIkSZKkhfoGjkDognNzYAwAAAAASUVORK5CYII=","FileName":"off.png","ContentType":"image/png"}
+Request Method: POST
+Content Type: application/json; charset=utf-8
+Raw input: {"BoothNumber":0,"ImageData":"iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAABmJLR0QA/wD/AP\u002BgvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH4gUeACkqcIPpyAAAAr9JREFUeNrtnT1OBDEMhV8sIRqEuAKi5w5LvQVchAJxDu7CCbgKl6BBwNKARMVuZifxs/1eDTuOv/w4GTsDSJIkSZIkSZIkSaXV5II\u002B7YCXf5y5cQGyA84BXAF42vPjmwog1mx36zTq8gu4sD0gsoHpgfFHNw3YjQZyD\u002BBuIflNIRiL22wdhl0D2Ho0LCKMpf9vHX97BuDEs4GRYAxdQ34W8ecVH7qpBKOnvVap90Ww7SAg78BbBSgMNh0E5BT4zD5SWGwxOYKrY1j13sk2dRqLIR6OYVzHjMmYmQ6a9azeEN9G/TCzo5jDbmM0aqTDZsIYepY1e4c9wnERjm5axl7GAGOp3S3r0I8I4yggUaBEgnE0EHYoEafWVZIcGBseEcZqQNgcEBXGqvsQlpA44qviISOEoXdGW8CnAPGCkgHGMCAZpg6v6XloKmlGKKPXyuG5vZmgzAhcpiRbZ4AyK4qclv0eGcrMkH5qOUI0KB4JfdPrQ6JA8cqudCnYYYfimepq1RocYGT6iXGkeHcW9xpDJigMI5ei6JMBCss0SlOF6wmFaU2jKov2gMIWYFAmylWO9spPWWxQtKhrDeEMexVlEW4MS\u002B9DWM\u002BzSu7UdbhIBETH79qHRAvDNTqYRoreqZNBURoQGRQlypFBUSopGRTLACN6dXCqsPcXRhYoqepDGJ5PBYTFGZGhpKwxjAwlbRVuVCip69QjQkl/k0M0KCXuOolkb5nbgKLY3arAiGJ/qwQjQjtaNRjs7bGKMGY\u002Bp1dUh4sOr0vpblo1ltHhWGSp7Hc2pzBBseow2OwwOYHLHhMMLrtUp05mnwnGeDtX3Rh6GVZ1pJhGxnC7t6sDWeGlS\u002Bi7TY6w/6F1fuFu\u002BAddslw0s\u002BCa80cArwue06dZn7Fm1h4f3AL4aAu//TjkFa6uX5IkSZIkSZIkSZKkhfoGjkDognNzYAwAAAAASUVORK5CYII=","FileName":"off.png","ContentType":"image/png"}
+2024-10-06 07:50:39 - 접근 확인
+Array
+(
+)
+
+Array
+(
+    [file] => Array
+        (
+            [name] => GroupChat.png
+            [type] => image/png
+            [tmp_name] => /tmp/phpYIvnTo
+            [error] => 0
+            [size] => 32716
+        )
+
+)
+
+
+Request Method: POST
+Content Type: multipart/form-data; boundary=----WebKitFormBoundary5sdEBufo7ANb37vJ
+Raw input: 
+2024-10-06 08:07:46 - 접근 확인
+Array
+(
+)
+
+Array
+(
+    [file] => Array
+        (
+            [name] => GroupChat.png
+            [type] => image/png
+            [tmp_name] => /tmp/phpDzyX1W
+            [error] => 0
+            [size] => 32716
+        )
+
+)
+
+
+Request Method: POST
+Content Type: multipart/form-data; boundary=----WebKitFormBoundaryedo6XzsnZImhxPS6
+Raw input: 
+2024-10-06 08:07:59 - 접근 확인
+Array
+(
+)
+
+Array
+(
+    [file] => Array
+        (
+            [name] => GroupChat.png
+            [type] => image/png
+            [tmp_name] => /tmp/phpr5W9Sz
+            [error] => 0
+            [size] => 32716
+        )
+
+)
+
+
+Request Method: POST
+Content Type: multipart/form-data; boundary=----WebKitFormBoundaryvdpfzDmuRRApvT8L
+Raw input: 
+2024-10-06 08:12:48 - 접근 확인
+Array
+(
+)
+
+Array
+(
+    [file] => Array
+        (
+            [name] => GroupChat.png
+            [type] => image/png
+            [tmp_name] => /tmp/phpSRIJVG
+            [error] => 0
+            [size] => 32716
+        )
+
+)
+
+
+Request Method: POST
+Content Type: multipart/form-data; boundary=----WebKitFormBoundarymlaYYPXyXkgkYVEr
+Raw input: 
+2024-10-06 08:15:19 - 접근 확인
+Array
+(
+)
+
+Array
+(
+    [file] => Array
+        (
+            [name] => GroupChat.png
+            [type] => image/png
+            [tmp_name] => /tmp/phpZ19HZW
+            [error] => 0
+            [size] => 32716
+        )
+
+)
+
+
+Request Method: POST
+Content Type: multipart/form-data; boundary=----WebKitFormBoundary165gSpRLWpDh1i8s
+Raw input: 
+2024-10-06 08:16:15 - 접근 확인
+Array
+(
+)
+
+Array
+(
+    [file] => Array
+        (
+            [name] => GroupChat.png
+            [type] => image/png
+            [tmp_name] => /tmp/phpiQ8CSI
+            [error] => 0
+            [size] => 32716
+        )
+
+)
+
+
+Request Method: POST
+Content Type: multipart/form-data; boundary=----WebKitFormBoundaryqyj42tVW22V7OJO1
+Raw input: 
+2024-10-06 08:16:49 - 접근 확인
+Array
+(
+)
+
+Array
+(
+    [file] => Array
+        (
+            [name] => GroupChat.png
+            [type] => image/png
+            [tmp_name] => /tmp/phppwV8bG
+            [error] => 0
+            [size] => 32716
+        )
+
+)
+
+
+Request Method: POST
+Content Type: multipart/form-data; boundary=----WebKitFormBoundaryQLSHZAtReveHhHcF
+Raw input: 
+2024-10-06 08:18:01 - 접근 확인
+Array
+(
+)
+
+Array
+(
+    [file] => Array
+        (
+            [name] => GroupChat.png
+            [type] => image/png
+            [tmp_name] => /tmp/phpIaXBY3
+            [error] => 0
+            [size] => 32716
+        )
+
+)
+
+
+Request Method: POST
+Content Type: multipart/form-data; boundary=----WebKitFormBoundaryIwHBRjb1KhIn5INV
+Raw input: 
+2024-10-06 08:20:49 - 접근 확인
+Array
+(
+)
+
+Array
+(
+    [file] => Array
+        (
+            [name] => GroupChat.png
+            [type] => image/png
+            [tmp_name] => /tmp/phpgR2TTg
+            [error] => 0
+            [size] => 32716
+        )
+
+)
+
+
+Request Method: POST
+Content Type: multipart/form-data; boundary=----WebKitFormBoundaryINc76eCiVfEeXr7w
+Raw input: 
+2024-10-06 08:35:57 - 접근 확인
+Array
+(
+)
+
+Array
+(
+    [file] => Array
+        (
+            [name] => GroupChat.png
+            [type] => image/png
+            [tmp_name] => /tmp/phpgAYAvV
+            [error] => 0
+            [size] => 32716
+        )
+
+)
+
+
+Request Method: POST
+Content Type: multipart/form-data; boundary=----WebKitFormBoundaryLVByIPMoNO3yJfSo
+Raw input: 
+2024-10-06 08:38:38 - 접근 확인
+Array
+(
+)
+
+Array
+(
+    [file] => Array
+        (
+            [name] => GroupChat.png
+            [type] => image/png
+            [tmp_name] => /tmp/php2OUdms
+            [error] => 0
+            [size] => 32716
+        )
+
+)
+
+
+Request Method: POST
+Content Type: multipart/form-data; boundary=----WebKitFormBoundaryX1IAyESwAtXpWjjc
+Raw input: 
+2024-10-06 08:42:20 - 접근 확인
+Array
+(
+    [boothNumber] => 1
+)
+
+Array
+(
+    [file] => Array
+        (
+            [name] => GroupChat.png
+            [type] => image/png
+            [tmp_name] => /tmp/phpjrIyFW
+            [error] => 0
+            [size] => 32716
+        )
+
+)
+
+
+Request Method: POST
+Content Type: multipart/form-data; boundary=----WebKitFormBoundaryGdPcQTACYAE9WHHc
+Raw input: 
+2024-10-06 08:42:27 - 접근 확인
+Array
+(
+)
+
+Array
+(
+    [file] => Array
+        (
+            [name] => GroupChat.png
+            [type] => image/png
+            [tmp_name] => /tmp/phpPFO3V8
+            [error] => 0
+            [size] => 32716
+        )
+
+)
+
+
+Request Method: POST
+Content Type: multipart/form-data; boundary=----WebKitFormBoundaryrwGWktuGjFybx6Qs
+Raw input: 
+2024-10-06 08:42:40 - 접근 확인
+Array
+(
+    [sdf] => sdf
+)
+
+Array
+(
+    [file] => Array
+        (
+            [name] => GroupChat.png
+            [type] => image/png
+            [tmp_name] => /tmp/php1ll8vZ
+            [error] => 0
+            [size] => 32716
+        )
+
+)
+
+
+Request Method: POST
+Content Type: multipart/form-data; boundary=----WebKitFormBoundaryxdl7gDVqDpaHFBvD
+Raw input: 
+2024-10-06 08:42:48 - 접근 확인
+Array
+(
+    [boothNumber] => 1
+)
+
+Array
+(
+    [file] => Array
+        (
+            [name] => GroupChat.png
+            [type] => image/png
+            [tmp_name] => /tmp/php1zsTbk
+            [error] => 0
+            [size] => 32716
+        )
+
+)
+
+
+Request Method: POST
+Content Type: multipart/form-data; boundary=----WebKitFormBoundaryBWfyeW719j3wK9x4
+Raw input: 
+2024-10-06 08:44:46 - 접근 확인
+Array
+(
+    [boothNumber] => 1
+)
+
+Array
+(
+    [file] => Array
+        (
+            [name] => Calendar.png
+            [type] => image/png
+            [tmp_name] => /tmp/phpyUL79y
+            [error] => 0
+            [size] => 31087
+        )
+
+)
+
+
+Request Method: POST
+Content Type: multipart/form-data; boundary=----WebKitFormBoundaryYQE8mfpw4wh0eB4K
+Raw input: 
+2024-10-06 08:45:00 - 접근 확인
+Array
+(
+)
+
+Array
+(
+    [file] => Array
+        (
+            [name] => Calendar.png
+            [type] => image/png
+            [tmp_name] => /tmp/phps1sHqo
+            [error] => 0
+            [size] => 31087
+        )
+
+)
+
+
+Request Method: POST
+Content Type: multipart/form-data; boundary=----WebKitFormBoundaryld4ABe4FcJNlePMd
+Raw input: 
+2024-10-06 08:45:50 - 접근 확인
+Array
+(
+)
+
+Array
+(
+    [file] => Array
+        (
+            [name] => Calendar.png
+            [type] => image/png
+            [tmp_name] => /tmp/php7pbpND
+            [error] => 0
+            [size] => 31087
+        )
+
+)
+
+
+Request Method: POST
+Content Type: multipart/form-data; boundary=----WebKitFormBoundaryWhUEqbnlQ9dXNFhg
+Raw input: 
+2024-10-06 08:46:26 - 접근 확인
+Array
+(
+    [boothNumber] => 1
+)
+
+Array
+(
+    [file] => Array
+        (
+            [name] => Calendar.png
+            [type] => image/png
+            [tmp_name] => /tmp/phpfda2Ow
+            [error] => 0
+            [size] => 31087
+        )
+
+)
+
+
+Request Method: POST
+Content Type: multipart/form-data; boundary=----WebKitFormBoundaryq3aJMYBGVO0PTdQM
+Raw input: 
+2024-10-06 08:46:42 - 접근 확인
+Array
+(
+    [sdf] => sdf
+)
+
+Array
+(
+    [file] => Array
+        (
+            [name] => Calendar.png
+            [type] => image/png
+            [tmp_name] => /tmp/phpjpsHRo
+            [error] => 0
+            [size] => 31087
+        )
+
+)
+
+
+Request Method: POST
+Content Type: multipart/form-data; boundary=----WebKitFormBoundaryBomcSHmxKxuOHdv8
+Raw input: 
+2024-10-06 08:48:10 - 접근 확인
+Array
+(
+    [sdf] => sdf
+)
+
+Array
+(
+    [file] => Array
+        (
+            [name] => Calendar.png
+            [type] => image/png
+            [tmp_name] => /tmp/phpcYTU6a
+            [error] => 0
+            [size] => 31087
+        )
+
+)
+
+
+Request Method: POST
+Content Type: multipart/form-data; boundary=----WebKitFormBoundarykLtqSsKUojVuftME
+Raw input: 
+2024-10-06 08:48:36 - 접근 확인
+Array
+(
+    [boothNumber] => 1
+)
+
+Array
+(
+    [file] => Array
+        (
+            [name] => Calendar.png
+            [type] => image/png
+            [tmp_name] => /tmp/php3yvIkA
+            [error] => 0
+            [size] => 31087
+        )
+
+)
+
+
+Request Method: POST
+Content Type: multipart/form-data; boundary=----WebKitFormBoundaryoYVNx6IakvKZ0hOR
+Raw input: 
+2024-10-06 08:51:17 - 접근 확인
+Array
+(
+)
+
+Array
+(
+    [file] => Array
+        (
+            [name] => Calendar.png
+            [type] => image/png
+            [tmp_name] => /tmp/php7fLwmf
+            [error] => 0
+            [size] => 31087
+        )
+
+)
+
+
+Request Method: POST
+Content Type: multipart/form-data; boundary=----WebKitFormBoundaryS4WJNOktIHtMrq9N
+Raw input: 
+2024-10-06 08:54:18 - 접근 확인
+Array
+(
+)
+
+Array
+(
+    [file] => Array
+        (
+            [name] => HiTheBall.png
+            [type] => image/png
+            [tmp_name] => /tmp/phpUf5ows
+            [error] => 0
+            [size] => 48441
+        )
+
+)
+
+
+Request Method: POST
+Content Type: multipart/form-data; boundary=----WebKitFormBoundarywLewWekIk1tkRWYS
+Raw input: 
+2024-10-06 08:55:00 - 접근 확인
+Array
+(
+)
+
+Array
+(
+    [file] => Array
+        (
+            [name] => HiTheBall.png
+            [type] => image/png
+            [tmp_name] => /tmp/phpjrm4d4
+            [error] => 0
+            [size] => 48441
+        )
+
+)
+
+
+Request Method: POST
+Content Type: multipart/form-data; boundary=----WebKitFormBoundary0mUcFa6NbyApxYiU
+Raw input: 
+2024-10-06 08:56:12 - 접근 확인
+Array
+(
+)
+
+Array
+(
+    [file] => Array
+        (
+            [name] => HiTheBall.png
+            [type] => image/png
+            [tmp_name] => /tmp/phpWFgjw8
+            [error] => 0
+            [size] => 48441
+        )
+
+)
+
+
+Request Method: POST
+Content Type: multipart/form-data; boundary=----WebKitFormBoundaryTDms3gc1DcIFqliq
+Raw input: 
+2024-10-06 08:57:05 - 접근 확인
+Array
+(
+)
+
+Array
+(
+    [file] => Array
+        (
+            [name] => HiTheBall.png
+            [type] => image/png
+            [tmp_name] => /tmp/phpFyrKju
+            [error] => 0
+            [size] => 48441
+        )
+
+)
+
+
+Request Method: POST
+Content Type: multipart/form-data; boundary=----WebKitFormBoundaryYoYjkAIX3fbXJTqG
+Raw input: 
+2024-10-06 09:00:25 - 접근 확인
+Array
+(
+)
+
+Array
+(
+    [file] => Array
+        (
+            [name] => HiTheBall.png
+            [type] => image/png
+            [tmp_name] => /tmp/phpQWb6we
+            [error] => 0
+            [size] => 48441
+        )
+
+)
+
+
+Request Method: POST
+Content Type: multipart/form-data; boundary=----WebKitFormBoundaryD1QqJ5VgvVAqM225
+Raw input: 
+2024-10-06 09:03:23 - 접근 확인
+Array
+(
+)
+
+Array
+(
+    [file] => Array
+        (
+            [name] => HiTheBall.png
+            [type] => image/png
+            [tmp_name] => /tmp/phpSzhdHG
+            [error] => 0
+            [size] => 48441
+        )
+
+)
+
+
+Request Method: POST
+Content Type: multipart/form-data; boundary=----WebKitFormBoundaryug57w9WEzYavcM5o
+Raw input: 
+2024-10-06 09:03:42 - 접근 확인
+Array
+(
+    [boothNumber] => 1
+)
+
+Array
+(
+    [file] => Array
+        (
+            [name] => HiTheBall.png
+            [type] => image/png
+            [tmp_name] => /tmp/phpGbj2ON
+            [error] => 0
+            [size] => 48441
+        )
+
+)
+
+
+Request Method: POST
+Content Type: multipart/form-data; boundary=----WebKitFormBoundarywnTzkakYnhBJOjWA
+Raw input: 
+2024-10-06 09:04:09 - 접근 확인
+Array
+(
+    [boothNumber] => 1
+)
+
+Array
+(
+    [file] => Array
+        (
+            [name] => GroupChat.png
+            [type] => image/png
+            [tmp_name] => /tmp/phpOEttel
+            [error] => 0
+            [size] => 32716
+        )
+
+)
+
+
+Request Method: POST
+Content Type: multipart/form-data; boundary=----WebKitFormBoundaryCQGfnm0PvvAnAMDB
+Raw input: 
+2024-10-06 09:04:19 - 접근 확인
+Array
+(
+    [boothNumber] => 1
+)
+
+Array
+(
+    [file] => Array
+        (
+            [name] => GroupChat.png
+            [type] => image/png
+            [tmp_name] => /tmp/php2dmYaw
+            [error] => 0
+            [size] => 32716
+        )
+
+)
+
+
+Request Method: POST
+Content Type: multipart/form-data; boundary=----WebKitFormBoundary5gRdCw0zkkSjxBxi
+Raw input: 
+2024-10-06 09:05:41 - 접근 확인
+Array
+(
+    [boothNumber] => 1
+)
+
+Array
+(
+    [file] => Array
+        (
+            [name] => GroupChat.png
+            [type] => image/png
+            [tmp_name] => /tmp/phpPf6lGe
+            [error] => 0
+            [size] => 32716
+        )
+
+)
+
+
+Request Method: POST
+Content Type: multipart/form-data; boundary=----WebKitFormBoundaryKzmdM80xSJ2tU54p
+Raw input: 
+2024-10-06 09:07:20 - 접근 확인
+Array
+(
+    [boothNumber] => 1
+)
+
+Array
+(
+    [file] => Array
+        (
+            [name] => GroupChat.png
+            [type] => image/png
+            [tmp_name] => /tmp/phpmkv98A
+            [error] => 0
+            [size] => 32716
+        )
+
+)
+
+
+Request Method: POST
+Content Type: multipart/form-data; boundary=----WebKitFormBoundaryPFi9Cu4V4bXmYPBh
+Raw input: 
+2024-10-06 09:07:23 - 접근 확인
+Array
+(
+)
+
+Array
+(
+    [file] => Array
+        (
+            [name] => GroupChat.png
+            [type] => image/png
+            [tmp_name] => /tmp/phpMUON3G
+            [error] => 0
+            [size] => 32716
+        )
+
+)
+
+
+Request Method: POST
+Content Type: multipart/form-data; boundary=----WebKitFormBoundaryBylq5uPRArS38BhZ
+Raw input: 
+2024-10-06 09:07:56 - 접근 확인
+Array
+(
+)
+
+Array
+(
+    [file] => Array
+        (
+            [name] => GroupChat.png
+            [type] => image/png
+            [tmp_name] => /tmp/phpTdAkfQ
+            [error] => 0
+            [size] => 32716
+        )
+
+)
+
+
+Request Method: POST
+Content Type: multipart/form-data; boundary=----WebKitFormBoundarydHysB8v0gJ52YBRf
+Raw input: 
+2024-10-06 09:12:15 - 접근 확인
+Array
+(
+)
+
+Array
+(
+    [file] => Array
+        (
+            [name] => GroupChat.png
+            [type] => image/png
+            [tmp_name] => /tmp/phpqzqNl0
+            [error] => 0
+            [size] => 32716
+        )
+
+)
+
+
+Request Method: POST
+Content Type: multipart/form-data; boundary=----WebKitFormBoundary4LRacsUlBMNn58Dq
+Raw input: 
+2024-10-06 09:13:16 - 접근 확인
+Array
+(
+)
+
+Array
+(
+    [file] => Array
+        (
+            [name] => Event.png
+            [type] => image/png
+            [tmp_name] => /tmp/php292gxd
+            [error] => 0
+            [size] => 355780
+        )
+
+)
+
+
+Request Method: POST
+Content Type: multipart/form-data; boundary=----WebKitFormBoundarySYj0t0eYfj2O2zPa
+Raw input: 
+2024-10-06 09:15:44 - 접근 확인
+Array
+(
+)
+
+Array
+(
+)
+
+{"BoothNumber":0,"ImageData":"iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAABmJLR0QA/wD/AP\u002BgvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH4gUeACkqcIPpyAAAAr9JREFUeNrtnT1OBDEMhV8sIRqEuAKi5w5LvQVchAJxDu7CCbgKl6BBwNKARMVuZifxs/1eDTuOv/w4GTsDSJIkSZIkSZIkSaXV5II\u002B7YCXf5y5cQGyA84BXAF42vPjmwog1mx36zTq8gu4sD0gsoHpgfFHNw3YjQZyD\u002BBuIflNIRiL22wdhl0D2Ho0LCKMpf9vHX97BuDEs4GRYAxdQ34W8ecVH7qpBKOnvVap90Ww7SAg78BbBSgMNh0E5BT4zD5SWGwxOYKrY1j13sk2dRqLIR6OYVzHjMmYmQ6a9azeEN9G/TCzo5jDbmM0aqTDZsIYepY1e4c9wnERjm5axl7GAGOp3S3r0I8I4yggUaBEgnE0EHYoEafWVZIcGBseEcZqQNgcEBXGqvsQlpA44qviISOEoXdGW8CnAPGCkgHGMCAZpg6v6XloKmlGKKPXyuG5vZmgzAhcpiRbZ4AyK4qclv0eGcrMkH5qOUI0KB4JfdPrQ6JA8cqudCnYYYfimepq1RocYGT6iXGkeHcW9xpDJigMI5ei6JMBCss0SlOF6wmFaU2jKov2gMIWYFAmylWO9spPWWxQtKhrDeEMexVlEW4MS\u002B9DWM\u002BzSu7UdbhIBETH79qHRAvDNTqYRoreqZNBURoQGRQlypFBUSopGRTLACN6dXCqsPcXRhYoqepDGJ5PBYTFGZGhpKwxjAwlbRVuVCip69QjQkl/k0M0KCXuOolkb5nbgKLY3arAiGJ/qwQjQjtaNRjs7bGKMGY\u002Bp1dUh4sOr0vpblo1ltHhWGSp7Hc2pzBBseow2OwwOYHLHhMMLrtUp05mnwnGeDtX3Rh6GVZ1pJhGxnC7t6sDWeGlS\u002Bi7TY6w/6F1fuFu\u002BAddslw0s\u002BCa80cArwue06dZn7Fm1h4f3AL4aAu//TjkFa6uX5IkSZIkSZIkSZKkhfoGjkDognNzYAwAAAAASUVORK5CYII=","FileName":"off.png","ContentType":"image/png"}
+Request Method: POST
+Content Type: application/json; charset=utf-8
+Raw input: {"BoothNumber":0,"ImageData":"iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAABmJLR0QA/wD/AP\u002BgvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH4gUeACkqcIPpyAAAAr9JREFUeNrtnT1OBDEMhV8sIRqEuAKi5w5LvQVchAJxDu7CCbgKl6BBwNKARMVuZifxs/1eDTuOv/w4GTsDSJIkSZIkSZIkSaXV5II\u002B7YCXf5y5cQGyA84BXAF42vPjmwog1mx36zTq8gu4sD0gsoHpgfFHNw3YjQZyD\u002BBuIflNIRiL22wdhl0D2Ho0LCKMpf9vHX97BuDEs4GRYAxdQ34W8ecVH7qpBKOnvVap90Ww7SAg78BbBSgMNh0E5BT4zD5SWGwxOYKrY1j13sk2dRqLIR6OYVzHjMmYmQ6a9azeEN9G/TCzo5jDbmM0aqTDZsIYepY1e4c9wnERjm5axl7GAGOp3S3r0I8I4yggUaBEgnE0EHYoEafWVZIcGBseEcZqQNgcEBXGqvsQlpA44qviISOEoXdGW8CnAPGCkgHGMCAZpg6v6XloKmlGKKPXyuG5vZmgzAhcpiRbZ4AyK4qclv0eGcrMkH5qOUI0KB4JfdPrQ6JA8cqudCnYYYfimepq1RocYGT6iXGkeHcW9xpDJigMI5ei6JMBCss0SlOF6wmFaU2jKov2gMIWYFAmylWO9spPWWxQtKhrDeEMexVlEW4MS\u002B9DWM\u002BzSu7UdbhIBETH79qHRAvDNTqYRoreqZNBURoQGRQlypFBUSopGRTLACN6dXCqsPcXRhYoqepDGJ5PBYTFGZGhpKwxjAwlbRVuVCip69QjQkl/k0M0KCXuOolkb5nbgKLY3arAiGJ/qwQjQjtaNRjs7bGKMGY\u002Bp1dUh4sOr0vpblo1ltHhWGSp7Hc2pzBBseow2OwwOYHLHhMMLrtUp05mnwnGeDtX3Rh6GVZ1pJhGxnC7t6sDWeGlS\u002Bi7TY6w/6F1fuFu\u002BAddslw0s\u002BCa80cArwue06dZn7Fm1h4f3AL4aAu//TjkFa6uX5IkSZIkSZIkSZKkhfoGjkDognNzYAwAAAAASUVORK5CYII=","FileName":"off.png","ContentType":"image/png"}
+2024-10-06 09:18:50 - 접근 확인
+Array
+(
+)
+
+Array
+(
+)
+
+
+Request Method: GET
+Content Type: 
+Raw input: 
+2024-10-06 09:29:11 - 접근 확인
+Array
+(
+)
+
+Array
+(
+    [file] => Array
+        (
+            [name] => Event.png
+            [type] => image/png
+            [tmp_name] => /tmp/phphvE8GX
+            [error] => 0
+            [size] => 355780
+        )
+
+)
+
+
+Request Method: POST
+Content Type: multipart/form-data; boundary=----WebKitFormBoundaryBedVQmGOVbrqnL6f
+Raw input: 
+2024-10-06 09:32:02 - 접근 확인
+Array
+(
+)
+
+Array
+(
+)
+
+
+Request Method: GET
+Content Type: 
+Raw input: 
+2024-10-06 09:39:03 - 접근 확인
+Array
+(
+)
+
+Array
+(
+)
+
+
+Request Method: GET
+Content Type: 
+Raw input: 
+2024-10-06 09:43:51 - 접근 확인
+Array
+(
+)
+
+Array
+(
+)
+
+
+Request Method: GET
+Content Type: 
+Raw input: 
+2024-10-06 09:46:28 - 스크립트 시작
+2024-10-06 09:46:28 - REQUEST_METHOD: GET
+2024-10-06 09:46:28 - FILES: Array
+(
+)
+
+2024-10-06 09:46:28 - 접근 확인
+Array
+(
+)
+
+Array
+(
+)
+
+
+Request Method: GET
+Content Type: 
+Raw input: 
+2024-10-06 09:50:04 - 스크립트 시작
+2024-10-06 09:50:04 - REQUEST_METHOD: GET
+2024-10-06 09:50:04 - FILES: Array
+(
+)
+
+2024-10-06 09:50:04 - 접근 확인
+Array
+(
+)
+
+Array
+(
+)
+
+
+Request Method: GET
+Content Type: 
+Raw input: 
+2024-10-06 09:53:05 - 스크립트 시작
+2024-10-06 09:53:05 - REQUEST_METHOD: GET
+2024-10-06 09:53:05 - FILES: Array
+(
+)
+
+2024-10-06 09:53:05 - HTTP_X_HTTP_METHOD_OVERRIDE: Not set
+2024-10-06 09:53:05 - CONTENT_TYPE: Not set
+2024-10-06 09:53:05 - FILES: Array
+(
+)
+
+2024-10-06 09:53:05 - 접근 확인
+Array
+(
+)
+
+Array
+(
+)
+
+
+Request Method: GET
+Content Type: 
+Raw input: 
+2024-10-06 10:00:23 - 스크립트 시작
+2024-10-06 10:00:23 - REQUEST_METHOD: GET
+2024-10-06 10:00:23 - FILES: Array
+(
+)
+
+2024-10-06 10:00:23 - HTTP_X_HTTP_METHOD_OVERRIDE: Not set
+2024-10-06 10:00:23 - CONTENT_TYPE: Not set
+2024-10-06 10:00:23 - FILES: Array
+(
+)
+
+2024-10-06 10:00:23 - 접근 확인
+Array
+(
+)
+
+Array
+(
+)
+
+
+Request Method: GET
+Content Type: 
+Raw input: 
+2024-10-06 10:05:33 - 스크립트 시작
+2024-10-06 10:05:33 - REQUEST_METHOD: GET
+2024-10-06 10:05:33 - FILES: Array
+(
+)
+
+2024-10-06 10:05:33 - HTTP_X_HTTP_METHOD_OVERRIDE: Not set
+2024-10-06 10:05:33 - CONTENT_TYPE: Not set
+2024-10-06 10:05:33 - FILES: Array
+(
+)
+
+2024-10-06 10:05:33 - 접근 확인
+Array
+(
+)
+
+Array
+(
+)
+
+
+Request Method: GET
+Content Type: 
+Raw input: 
+2024-10-06 10:47:44 - 스크립트 시작
+2024-10-06 10:47:44 - REQUEST_METHOD: POST
+2024-10-06 10:47:44 - FILES: Array
+(
+)
+
+2024-10-06 10:47:44 - HTTP_X_HTTP_METHOD_OVERRIDE: Not set
+2024-10-06 10:47:44 - CONTENT_TYPE: application/json; charset=utf-8
+2024-10-06 10:47:44 - FILES: Array
+(
+)
+
+2024-10-06 10:47:44 - 접근 확인
+Array
+(
+)
+
+Array
+(
+)
+
+{"id":null,"booth_number":"TEST-001","beacon_id":"BEACON-TEST","company_name":"\uD14C\uC2A4\uD2B8 \uD68C\uC0AC","title":"\uD14C\uC2A4\uD2B8 \uC81C\uBAA9","description":"\uC774\uAC83\uC740 POST \uC694\uCCAD \uD14C\uC2A4\uD2B8\uC785\uB2C8\uB2E4.","product_image_url":"https://example.com/test-image.jpg"}
+Request Method: POST
+Content Type: application/json; charset=utf-8
+Raw input: {"id":null,"booth_number":"TEST-001","beacon_id":"BEACON-TEST","company_name":"\uD14C\uC2A4\uD2B8 \uD68C\uC0AC","title":"\uD14C\uC2A4\uD2B8 \uC81C\uBAA9","description":"\uC774\uAC83\uC740 POST \uC694\uCCAD \uD14C\uC2A4\uD2B8\uC785\uB2C8\uB2E4.","product_image_url":"https://example.com/test-image.jpg"}
+2024-10-06 10:47:51 - 스크립트 시작
+2024-10-06 10:47:51 - REQUEST_METHOD: POST
+2024-10-06 10:47:51 - FILES: Array
+(
+)
+
+2024-10-06 10:47:51 - HTTP_X_HTTP_METHOD_OVERRIDE: Not set
+2024-10-06 10:47:51 - CONTENT_TYPE: application/json; charset=utf-8
+2024-10-06 10:47:51 - FILES: Array
+(
+)
+
+2024-10-06 10:47:51 - 접근 확인
+Array
+(
+)
+
+Array
+(
+)
+
+{"id":null,"booth_number":"TEST-001","beacon_id":"BEACON-TEST","company_name":"\uD14C\uC2A4\uD2B8 \uD68C\uC0AC","title":"\uD14C\uC2A4\uD2B8 \uC81C\uBAA9","description":"\uC774\uAC83\uC740 POST \uC694\uCCAD \uD14C\uC2A4\uD2B8\uC785\uB2C8\uB2E4.","product_image_url":"https://example.com/test-image.jpg"}
+Request Method: POST
+Content Type: application/json; charset=utf-8
+Raw input: {"id":null,"booth_number":"TEST-001","beacon_id":"BEACON-TEST","company_name":"\uD14C\uC2A4\uD2B8 \uD68C\uC0AC","title":"\uD14C\uC2A4\uD2B8 \uC81C\uBAA9","description":"\uC774\uAC83\uC740 POST \uC694\uCCAD \uD14C\uC2A4\uD2B8\uC785\uB2C8\uB2E4.","product_image_url":"https://example.com/test-image.jpg"}
+2024-10-06 10:47:52 - 스크립트 시작
+2024-10-06 10:47:52 - REQUEST_METHOD: POST
+2024-10-06 10:47:52 - FILES: Array
+(
+)
+
+2024-10-06 10:47:52 - HTTP_X_HTTP_METHOD_OVERRIDE: Not set
+2024-10-06 10:47:52 - CONTENT_TYPE: application/json; charset=utf-8
+2024-10-06 10:47:52 - FILES: Array
+(
+)
+
+2024-10-06 10:47:52 - 접근 확인
+Array
+(
+)
+
+Array
+(
+)
+
+{"id":null,"booth_number":"TEST-001","beacon_id":"BEACON-TEST","company_name":"\uD14C\uC2A4\uD2B8 \uD68C\uC0AC","title":"\uD14C\uC2A4\uD2B8 \uC81C\uBAA9","description":"\uC774\uAC83\uC740 POST \uC694\uCCAD \uD14C\uC2A4\uD2B8\uC785\uB2C8\uB2E4.","product_image_url":"https://example.com/test-image.jpg"}
+Request Method: POST
+Content Type: application/json; charset=utf-8
+Raw input: {"id":null,"booth_number":"TEST-001","beacon_id":"BEACON-TEST","company_name":"\uD14C\uC2A4\uD2B8 \uD68C\uC0AC","title":"\uD14C\uC2A4\uD2B8 \uC81C\uBAA9","description":"\uC774\uAC83\uC740 POST \uC694\uCCAD \uD14C\uC2A4\uD2B8\uC785\uB2C8\uB2E4.","product_image_url":"https://example.com/test-image.jpg"}
+2024-10-06 10:47:54 - 스크립트 시작
+2024-10-06 10:47:54 - REQUEST_METHOD: POST
+2024-10-06 10:47:54 - FILES: Array
+(
+)
+
+2024-10-06 10:47:54 - HTTP_X_HTTP_METHOD_OVERRIDE: Not set
+2024-10-06 10:47:54 - CONTENT_TYPE: application/json; charset=utf-8
+2024-10-06 10:47:54 - FILES: Array
+(
+)
+
+2024-10-06 10:47:54 - 접근 확인
+Array
+(
+)
+
+Array
+(
+)
+
+{"id":null,"booth_number":"TEST-001","beacon_id":"BEACON-TEST","company_name":"\uD14C\uC2A4\uD2B8 \uD68C\uC0AC","title":"\uD14C\uC2A4\uD2B8 \uC81C\uBAA9","description":"\uC774\uAC83\uC740 POST \uC694\uCCAD \uD14C\uC2A4\uD2B8\uC785\uB2C8\uB2E4.","product_image_url":"https://example.com/test-image.jpg"}
+Request Method: POST
+Content Type: application/json; charset=utf-8
+Raw input: {"id":null,"booth_number":"TEST-001","beacon_id":"BEACON-TEST","company_name":"\uD14C\uC2A4\uD2B8 \uD68C\uC0AC","title":"\uD14C\uC2A4\uD2B8 \uC81C\uBAA9","description":"\uC774\uAC83\uC740 POST \uC694\uCCAD \uD14C\uC2A4\uD2B8\uC785\uB2C8\uB2E4.","product_image_url":"https://example.com/test-image.jpg"}
+2024-10-06 10:47:54 - 스크립트 시작
+2024-10-06 10:47:54 - REQUEST_METHOD: POST
+2024-10-06 10:47:54 - FILES: Array
+(
+)
+
+2024-10-06 10:47:54 - HTTP_X_HTTP_METHOD_OVERRIDE: Not set
+2024-10-06 10:47:54 - CONTENT_TYPE: application/json; charset=utf-8
+2024-10-06 10:47:54 - FILES: Array
+(
+)
+
+2024-10-06 10:47:54 - 접근 확인
+Array
+(
+)
+
+Array
+(
+)
+
+{"id":null,"booth_number":"TEST-001","beacon_id":"BEACON-TEST","company_name":"\uD14C\uC2A4\uD2B8 \uD68C\uC0AC","title":"\uD14C\uC2A4\uD2B8 \uC81C\uBAA9","description":"\uC774\uAC83\uC740 POST \uC694\uCCAD \uD14C\uC2A4\uD2B8\uC785\uB2C8\uB2E4.","product_image_url":"https://example.com/test-image.jpg"}
+Request Method: POST
+Content Type: application/json; charset=utf-8
+Raw input: {"id":null,"booth_number":"TEST-001","beacon_id":"BEACON-TEST","company_name":"\uD14C\uC2A4\uD2B8 \uD68C\uC0AC","title":"\uD14C\uC2A4\uD2B8 \uC81C\uBAA9","description":"\uC774\uAC83\uC740 POST \uC694\uCCAD \uD14C\uC2A4\uD2B8\uC785\uB2C8\uB2E4.","product_image_url":"https://example.com/test-image.jpg"}
+2024-10-06 10:47:56 - 스크립트 시작
+2024-10-06 10:47:56 - REQUEST_METHOD: POST
+2024-10-06 10:47:56 - FILES: Array
+(
+)
+
+2024-10-06 10:47:56 - HTTP_X_HTTP_METHOD_OVERRIDE: Not set
+2024-10-06 10:47:56 - CONTENT_TYPE: application/json; charset=utf-8
+2024-10-06 10:47:56 - FILES: Array
+(
+)
+
+2024-10-06 10:47:56 - 접근 확인
+Array
+(
+)
+
+Array
+(
+)
+
+{"id":null,"booth_number":"TEST-001","beacon_id":"BEACON-TEST","company_name":"\uD14C\uC2A4\uD2B8 \uD68C\uC0AC","title":"\uD14C\uC2A4\uD2B8 \uC81C\uBAA9","description":"\uC774\uAC83\uC740 POST \uC694\uCCAD \uD14C\uC2A4\uD2B8\uC785\uB2C8\uB2E4.","product_image_url":"https://example.com/test-image.jpg"}
+Request Method: POST
+Content Type: application/json; charset=utf-8
+Raw input: {"id":null,"booth_number":"TEST-001","beacon_id":"BEACON-TEST","company_name":"\uD14C\uC2A4\uD2B8 \uD68C\uC0AC","title":"\uD14C\uC2A4\uD2B8 \uC81C\uBAA9","description":"\uC774\uAC83\uC740 POST \uC694\uCCAD \uD14C\uC2A4\uD2B8\uC785\uB2C8\uB2E4.","product_image_url":"https://example.com/test-image.jpg"}
+2024-10-06 10:47:57 - 스크립트 시작
+2024-10-06 10:47:57 - REQUEST_METHOD: POST
+2024-10-06 10:47:57 - FILES: Array
+(
+)
+
+2024-10-06 10:47:57 - HTTP_X_HTTP_METHOD_OVERRIDE: Not set
+2024-10-06 10:47:57 - CONTENT_TYPE: application/json; charset=utf-8
+2024-10-06 10:47:57 - FILES: Array
+(
+)
+
+2024-10-06 10:47:57 - 접근 확인
+Array
+(
+)
+
+Array
+(
+)
+
+{"id":null,"booth_number":"TEST-001","beacon_id":"BEACON-TEST","company_name":"\uD14C\uC2A4\uD2B8 \uD68C\uC0AC","title":"\uD14C\uC2A4\uD2B8 \uC81C\uBAA9","description":"\uC774\uAC83\uC740 POST \uC694\uCCAD \uD14C\uC2A4\uD2B8\uC785\uB2C8\uB2E4.","product_image_url":"https://example.com/test-image.jpg"}
+Request Method: POST
+Content Type: application/json; charset=utf-8
+Raw input: {"id":null,"booth_number":"TEST-001","beacon_id":"BEACON-TEST","company_name":"\uD14C\uC2A4\uD2B8 \uD68C\uC0AC","title":"\uD14C\uC2A4\uD2B8 \uC81C\uBAA9","description":"\uC774\uAC83\uC740 POST \uC694\uCCAD \uD14C\uC2A4\uD2B8\uC785\uB2C8\uB2E4.","product_image_url":"https://example.com/test-image.jpg"}
+2024-10-06 10:47:57 - 스크립트 시작
+2024-10-06 10:47:57 - REQUEST_METHOD: POST
+2024-10-06 10:47:57 - FILES: Array
+(
+)
+
+2024-10-06 10:47:57 - HTTP_X_HTTP_METHOD_OVERRIDE: Not set
+2024-10-06 10:47:57 - CONTENT_TYPE: application/json; charset=utf-8
+2024-10-06 10:47:57 - FILES: Array
+(
+)
+
+2024-10-06 10:47:57 - 접근 확인
+Array
+(
+)
+
+Array
+(
+)
+
+{"id":null,"booth_number":"TEST-001","beacon_id":"BEACON-TEST","company_name":"\uD14C\uC2A4\uD2B8 \uD68C\uC0AC","title":"\uD14C\uC2A4\uD2B8 \uC81C\uBAA9","description":"\uC774\uAC83\uC740 POST \uC694\uCCAD \uD14C\uC2A4\uD2B8\uC785\uB2C8\uB2E4.","product_image_url":"https://example.com/test-image.jpg"}
+Request Method: POST
+Content Type: application/json; charset=utf-8
+Raw input: {"id":null,"booth_number":"TEST-001","beacon_id":"BEACON-TEST","company_name":"\uD14C\uC2A4\uD2B8 \uD68C\uC0AC","title":"\uD14C\uC2A4\uD2B8 \uC81C\uBAA9","description":"\uC774\uAC83\uC740 POST \uC694\uCCAD \uD14C\uC2A4\uD2B8\uC785\uB2C8\uB2E4.","product_image_url":"https://example.com/test-image.jpg"}
+2024-10-06 10:47:58 - 스크립트 시작
+2024-10-06 10:47:58 - REQUEST_METHOD: POST
+2024-10-06 10:47:58 - FILES: Array
+(
+)
+
+2024-10-06 10:47:58 - HTTP_X_HTTP_METHOD_OVERRIDE: Not set
+2024-10-06 10:47:58 - CONTENT_TYPE: application/json; charset=utf-8
+2024-10-06 10:47:58 - FILES: Array
+(
+)
+
+2024-10-06 10:47:58 - 접근 확인
+Array
+(
+)
+
+Array
+(
+)
+
+{"id":null,"booth_number":"TEST-001","beacon_id":"BEACON-TEST","company_name":"\uD14C\uC2A4\uD2B8 \uD68C\uC0AC","title":"\uD14C\uC2A4\uD2B8 \uC81C\uBAA9","description":"\uC774\uAC83\uC740 POST \uC694\uCCAD \uD14C\uC2A4\uD2B8\uC785\uB2C8\uB2E4.","product_image_url":"https://example.com/test-image.jpg"}
+Request Method: POST
+Content Type: application/json; charset=utf-8
+Raw input: {"id":null,"booth_number":"TEST-001","beacon_id":"BEACON-TEST","company_name":"\uD14C\uC2A4\uD2B8 \uD68C\uC0AC","title":"\uD14C\uC2A4\uD2B8 \uC81C\uBAA9","description":"\uC774\uAC83\uC740 POST \uC694\uCCAD \uD14C\uC2A4\uD2B8\uC785\uB2C8\uB2E4.","product_image_url":"https://example.com/test-image.jpg"}
+2024-10-06 10:47:59 - 스크립트 시작
+2024-10-06 10:47:59 - REQUEST_METHOD: POST
+2024-10-06 10:47:59 - FILES: Array
+(
+)
+
+2024-10-06 10:47:59 - HTTP_X_HTTP_METHOD_OVERRIDE: Not set
+2024-10-06 10:47:59 - CONTENT_TYPE: application/json; charset=utf-8
+2024-10-06 10:47:59 - FILES: Array
+(
+)
+
+2024-10-06 10:47:59 - 접근 확인
+Array
+(
+)
+
+Array
+(
+)
+
+{"id":null,"booth_number":"TEST-001","beacon_id":"BEACON-TEST","company_name":"\uD14C\uC2A4\uD2B8 \uD68C\uC0AC","title":"\uD14C\uC2A4\uD2B8 \uC81C\uBAA9","description":"\uC774\uAC83\uC740 POST \uC694\uCCAD \uD14C\uC2A4\uD2B8\uC785\uB2C8\uB2E4.","product_image_url":"https://example.com/test-image.jpg"}
+Request Method: POST
+Content Type: application/json; charset=utf-8
+Raw input: {"id":null,"booth_number":"TEST-001","beacon_id":"BEACON-TEST","company_name":"\uD14C\uC2A4\uD2B8 \uD68C\uC0AC","title":"\uD14C\uC2A4\uD2B8 \uC81C\uBAA9","description":"\uC774\uAC83\uC740 POST \uC694\uCCAD \uD14C\uC2A4\uD2B8\uC785\uB2C8\uB2E4.","product_image_url":"https://example.com/test-image.jpg"}
+2024-10-06 10:48:13 - 스크립트 시작
+2024-10-06 10:48:13 - REQUEST_METHOD: POST
+2024-10-06 10:48:13 - FILES: Array
+(
+)
+
+2024-10-06 10:48:13 - HTTP_X_HTTP_METHOD_OVERRIDE: Not set
+2024-10-06 10:48:13 - CONTENT_TYPE: application/json; charset=utf-8
+2024-10-06 10:48:13 - FILES: Array
+(
+)
+
+2024-10-06 10:48:13 - 접근 확인
+Array
+(
+)
+
+Array
+(
+)
+
+{"id":null,"booth_number":"TEST-001","beacon_id":"BEACON-TEST","company_name":"\uD14C\uC2A4\uD2B8 \uD68C\uC0AC","title":"\uD14C\uC2A4\uD2B8 \uC81C\uBAA9","description":"\uC774\uAC83\uC740 POST \uC694\uCCAD \uD14C\uC2A4\uD2B8\uC785\uB2C8\uB2E4.","product_image_url":"https://example.com/test-image.jpg"}
+Request Method: POST
+Content Type: application/json; charset=utf-8
+Raw input: {"id":null,"booth_number":"TEST-001","beacon_id":"BEACON-TEST","company_name":"\uD14C\uC2A4\uD2B8 \uD68C\uC0AC","title":"\uD14C\uC2A4\uD2B8 \uC81C\uBAA9","description":"\uC774\uAC83\uC740 POST \uC694\uCCAD \uD14C\uC2A4\uD2B8\uC785\uB2C8\uB2E4.","product_image_url":"https://example.com/test-image.jpg"}
+2024-10-06 11:19:18 - 스크립트 시작
+2024-10-06 11:19:18 - REQUEST_METHOD: GET
+2024-10-06 11:19:18 - FILES: Array
+(
+)
+
+2024-10-06 11:19:18 - HTTP_X_HTTP_METHOD_OVERRIDE: Not set
+2024-10-06 11:19:18 - CONTENT_TYPE: Not set
+2024-10-06 11:19:18 - FILES: Array
+(
+)
+
+2024-10-06 11:19:18 - 접근 확인
+Array
+(
+)
+
+Array
+(
+)
+
+
+Request Method: GET
+Content Type: 
+Raw input: 
+2024-10-06 11:23:02 - 스크립트 시작
+2024-10-06 11:23:02 - REQUEST_METHOD: POST
+2024-10-06 11:23:02 - FILES: Array
+(
+    [file] => Array
+        (
+            [name] => Event.png
+            [type] => image/png
+            [tmp_name] => /tmp/phpHgsQkb
+            [error] => 0
+            [size] => 355780
+        )
+
+)
+
+2024-10-06 11:23:02 - HTTP_X_HTTP_METHOD_OVERRIDE: Not set
+2024-10-06 11:23:02 - CONTENT_TYPE: multipart/form-data; boundary=----WebKitFormBoundarymLDM90JuHLKzXNAm
+2024-10-06 11:23:02 - FILES: Array
+(
+    [file] => Array
+        (
+            [name] => Event.png
+            [type] => image/png
+            [tmp_name] => /tmp/phpHgsQkb
+            [error] => 0
+            [size] => 355780
+        )
+
+)
+
+2024-10-06 11:23:02 - 접근 확인
+Array
+(
+)
+
+Array
+(
+    [file] => Array
+        (
+            [name] => Event.png
+            [type] => image/png
+            [tmp_name] => /tmp/phpHgsQkb
+            [error] => 0
+            [size] => 355780
+        )
+
+)
+
+
+Request Method: POST
+Content Type: multipart/form-data; boundary=----WebKitFormBoundarymLDM90JuHLKzXNAm
+Raw input: 
+2024-10-06 11:23:46 - 스크립트 시작
+2024-10-06 11:23:46 - REQUEST_METHOD: GET
+2024-10-06 11:23:46 - FILES: Array
+(
+)
+
+2024-10-06 11:23:46 - HTTP_X_HTTP_METHOD_OVERRIDE: Not set
+2024-10-06 11:23:46 - CONTENT_TYPE: Not set
+2024-10-06 11:23:46 - FILES: Array
+(
+)
+
+2024-10-06 11:23:46 - 접근 확인
+Array
+(
+)
+
+Array
+(
+)
+
+
+Request Method: GET
+Content Type: 
+Raw input: 
+2024-10-06 11:24:51 - 스크립트 시작
+2024-10-06 11:24:51 - REQUEST_METHOD: POST
+2024-10-06 11:24:51 - FILES: Array
+(
+    [file] => Array
+        (
+            [name] => Event.png
+            [type] => image/png
+            [tmp_name] => /tmp/phpW80eKS
+            [error] => 0
+            [size] => 355780
+        )
+
+)
+
+2024-10-06 11:24:51 - HTTP_X_HTTP_METHOD_OVERRIDE: Not set
+2024-10-06 11:24:51 - CONTENT_TYPE: multipart/form-data; boundary=----WebKitFormBoundaryJNeSe6yV5315yVMK
+2024-10-06 11:24:51 - FILES: Array
+(
+    [file] => Array
+        (
+            [name] => Event.png
+            [type] => image/png
+            [tmp_name] => /tmp/phpW80eKS
+            [error] => 0
+            [size] => 355780
+        )
+
+)
+
+2024-10-06 11:24:51 - 접근 확인
+Array
+(
+)
+
+Array
+(
+    [file] => Array
+        (
+            [name] => Event.png
+            [type] => image/png
+            [tmp_name] => /tmp/phpW80eKS
+            [error] => 0
+            [size] => 355780
+        )
+
+)
+
+
+Request Method: POST
+Content Type: multipart/form-data; boundary=----WebKitFormBoundaryJNeSe6yV5315yVMK
+Raw input: 
+2024-10-06 11:25:07 - 스크립트 시작
+2024-10-06 11:25:07 - REQUEST_METHOD: POST
+2024-10-06 11:25:07 - FILES: Array
+(
+    [file] => Array
+        (
+            [name] => Event.png
+            [type] => image/png
+            [tmp_name] => /tmp/php6IJfrN
+            [error] => 0
+            [size] => 355780
+        )
+
+)
+
+2024-10-06 11:25:07 - HTTP_X_HTTP_METHOD_OVERRIDE: Not set
+2024-10-06 11:25:07 - CONTENT_TYPE: multipart/form-data; boundary=----WebKitFormBoundaryqCIYghGThlNJpF25
+2024-10-06 11:25:07 - FILES: Array
+(
+    [file] => Array
+        (
+            [name] => Event.png
+            [type] => image/png
+            [tmp_name] => /tmp/php6IJfrN
+            [error] => 0
+            [size] => 355780
+        )
+
+)
+
+2024-10-06 11:25:07 - 접근 확인
+Array
+(
+)
+
+Array
+(
+    [file] => Array
+        (
+            [name] => Event.png
+            [type] => image/png
+            [tmp_name] => /tmp/php6IJfrN
+            [error] => 0
+            [size] => 355780
+        )
+
+)
+
+
+Request Method: POST
+Content Type: multipart/form-data; boundary=----WebKitFormBoundaryqCIYghGThlNJpF25
+Raw input: 
+2024-10-06 11:31:28 - 스크립트 시작
+2024-10-06 11:31:28 - REQUEST_METHOD: POST
+2024-10-06 11:31:28 - FILES: Array
+(
+    [file] => Array
+        (
+            [name] => Event.png
+            [type] => image/png
+            [tmp_name] => /tmp/phpaBeqEc
+            [error] => 0
+            [size] => 355780
+        )
+
+)
+
+2024-10-06 11:31:28 - HTTP_X_HTTP_METHOD_OVERRIDE: Not set
+2024-10-06 11:31:28 - CONTENT_TYPE: multipart/form-data; boundary=----WebKitFormBoundaryG9vVfBCPf4e1qHH4
+2024-10-06 11:31:28 - FILES: Array
+(
+    [file] => Array
+        (
+            [name] => Event.png
+            [type] => image/png
+            [tmp_name] => /tmp/phpaBeqEc
+            [error] => 0
+            [size] => 355780
+        )
+
+)
+
+2024-10-06 11:31:28 - 접근 확인
+Array
+(
+)
+
+Array
+(
+    [file] => Array
+        (
+            [name] => Event.png
+            [type] => image/png
+            [tmp_name] => /tmp/phpaBeqEc
+            [error] => 0
+            [size] => 355780
+        )
+
+)
+
+
+Request Method: POST
+Content Type: multipart/form-data; boundary=----WebKitFormBoundaryG9vVfBCPf4e1qHH4
+Raw input: 
+2024-10-06 11:31:32 - 스크립트 시작
+2024-10-06 11:31:32 - REQUEST_METHOD: POST
+2024-10-06 11:31:32 - FILES: Array
+(
+    [file] => Array
+        (
+            [name] => Event.png
+            [type] => image/png
+            [tmp_name] => /tmp/php5utnR7
+            [error] => 0
+            [size] => 355780
+        )
+
+)
+
+2024-10-06 11:31:32 - HTTP_X_HTTP_METHOD_OVERRIDE: Not set
+2024-10-06 11:31:32 - CONTENT_TYPE: multipart/form-data; boundary=----WebKitFormBoundaryDFh7nfdYAfAs019H
+2024-10-06 11:31:32 - FILES: Array
+(
+    [file] => Array
+        (
+            [name] => Event.png
+            [type] => image/png
+            [tmp_name] => /tmp/php5utnR7
+            [error] => 0
+            [size] => 355780
+        )
+
+)
+
+2024-10-06 11:31:32 - 접근 확인
+Array
+(
+)
+
+Array
+(
+    [file] => Array
+        (
+            [name] => Event.png
+            [type] => image/png
+            [tmp_name] => /tmp/php5utnR7
+            [error] => 0
+            [size] => 355780
+        )
+
+)
+
+
+Request Method: POST
+Content Type: multipart/form-data; boundary=----WebKitFormBoundaryDFh7nfdYAfAs019H
+Raw input: 
+2024-10-06 11:31:44 - 스크립트 시작
+2024-10-06 11:31:44 - REQUEST_METHOD: POST
+2024-10-06 11:31:44 - FILES: Array
+(
+    [file] => Array
+        (
+            [name] => Event.png
+            [type] => image/png
+            [tmp_name] => /tmp/php2Q2Buo
+            [error] => 0
+            [size] => 355780
+        )
+
+)
+
+2024-10-06 11:31:44 - HTTP_X_HTTP_METHOD_OVERRIDE: Not set
+2024-10-06 11:31:44 - CONTENT_TYPE: multipart/form-data; boundary=----WebKitFormBoundaryfhYrW0Ka4TTBKU0z
+2024-10-06 11:31:44 - FILES: Array
+(
+    [file] => Array
+        (
+            [name] => Event.png
+            [type] => image/png
+            [tmp_name] => /tmp/php2Q2Buo
+            [error] => 0
+            [size] => 355780
+        )
+
+)
+
+2024-10-06 11:31:44 - 접근 확인
+Array
+(
+)
+
+Array
+(
+    [file] => Array
+        (
+            [name] => Event.png
+            [type] => image/png
+            [tmp_name] => /tmp/php2Q2Buo
+            [error] => 0
+            [size] => 355780
+        )
+
+)
+
+
+Request Method: POST
+Content Type: multipart/form-data; boundary=----WebKitFormBoundaryfhYrW0Ka4TTBKU0z
+Raw input: 
+2024-10-06 11:35:27 - 스크립트 시작
+2024-10-06 11:35:27 - REQUEST_METHOD: POST
+2024-10-06 11:35:27 - FILES: Array
+(
+    [file] => Array
+        (
+            [name] => Event.png
+            [type] => image/png
+            [tmp_name] => /tmp/phpVV8GBn
+            [error] => 0
+            [size] => 355780
+        )
+
+)
+
+2024-10-06 11:35:27 - HTTP_X_HTTP_METHOD_OVERRIDE: Not set
+2024-10-06 11:35:27 - CONTENT_TYPE: multipart/form-data; boundary=----WebKitFormBoundaryX5iRYfFKtTAvPCAC
+2024-10-06 11:35:27 - FILES: Array
+(
+    [file] => Array
+        (
+            [name] => Event.png
+            [type] => image/png
+            [tmp_name] => /tmp/phpVV8GBn
+            [error] => 0
+            [size] => 355780
+        )
+
+)
+
+2024-10-06 11:35:27 - 접근 확인
+Array
+(
+)
+
+Array
+(
+    [file] => Array
+        (
+            [name] => Event.png
+            [type] => image/png
+            [tmp_name] => /tmp/phpVV8GBn
+            [error] => 0
+            [size] => 355780
+        )
+
+)
+
+
+Request Method: POST
+Content Type: multipart/form-data; boundary=----WebKitFormBoundaryX5iRYfFKtTAvPCAC
+Raw input: 
+2024-10-06 11:35:44 - 스크립트 시작
+2024-10-06 11:35:44 - REQUEST_METHOD: POST
+2024-10-06 11:35:44 - FILES: Array
+(
+    [file] => Array
+        (
+            [name] => Event.png
+            [type] => image/png
+            [tmp_name] => /tmp/phpd21uaT
+            [error] => 0
+            [size] => 355780
+        )
+
+)
+
+2024-10-06 11:35:44 - HTTP_X_HTTP_METHOD_OVERRIDE: Not set
+2024-10-06 11:35:44 - CONTENT_TYPE: multipart/form-data; boundary=----WebKitFormBoundaryeVpI3tc0YdvysAtc
+2024-10-06 11:35:44 - FILES: Array
+(
+    [file] => Array
+        (
+            [name] => Event.png
+            [type] => image/png
+            [tmp_name] => /tmp/phpd21uaT
+            [error] => 0
+            [size] => 355780
+        )
+
+)
+
+2024-10-06 11:35:44 - 접근 확인
+Array
+(
+)
+
+Array
+(
+    [file] => Array
+        (
+            [name] => Event.png
+            [type] => image/png
+            [tmp_name] => /tmp/phpd21uaT
+            [error] => 0
+            [size] => 355780
+        )
+
+)
+
+
+Request Method: POST
+Content Type: multipart/form-data; boundary=----WebKitFormBoundaryeVpI3tc0YdvysAtc
+Raw input: 
+2024-10-06 11:36:11 - 스크립트 시작
+2024-10-06 11:36:11 - REQUEST_METHOD: POST
+2024-10-06 11:36:11 - FILES: Array
+(
+    [file] => Array
+        (
+            [name] => Event.png
+            [type] => image/png
+            [tmp_name] => /tmp/php5BJqTp
+            [error] => 0
+            [size] => 355780
+        )
+
+)
+
+2024-10-06 11:36:11 - HTTP_X_HTTP_METHOD_OVERRIDE: Not set
+2024-10-06 11:36:11 - CONTENT_TYPE: multipart/form-data; boundary=----WebKitFormBoundarymesIIsdkxJXWjAJF
+2024-10-06 11:36:11 - FILES: Array
+(
+    [file] => Array
+        (
+            [name] => Event.png
+            [type] => image/png
+            [tmp_name] => /tmp/php5BJqTp
+            [error] => 0
+            [size] => 355780
+        )
+
+)
+
+2024-10-06 11:36:11 - 접근 확인
+Array
+(
+)
+
+Array
+(
+    [file] => Array
+        (
+            [name] => Event.png
+            [type] => image/png
+            [tmp_name] => /tmp/php5BJqTp
+            [error] => 0
+            [size] => 355780
+        )
+
+)
+
+
+Request Method: POST
+Content Type: multipart/form-data; boundary=----WebKitFormBoundarymesIIsdkxJXWjAJF
+Raw input: 
+2024-10-06 11:42:39 - 스크립트 시작
+2024-10-06 11:42:39 - REQUEST_METHOD: POST
+2024-10-06 11:42:39 - FILES: Array
+(
+    [file] => Array
+        (
+            [name] => Event.png
+            [type] => image/png
+            [tmp_name] => /tmp/phpnKENL9
+            [error] => 0
+            [size] => 355780
+        )
+
+)
+
+2024-10-06 11:42:39 - HTTP_X_HTTP_METHOD_OVERRIDE: Not set
+2024-10-06 11:42:39 - CONTENT_TYPE: multipart/form-data; boundary=----WebKitFormBoundaryaUMO6fwDYSn8wsNE
+2024-10-06 11:42:39 - FILES: Array
+(
+    [file] => Array
+        (
+            [name] => Event.png
+            [type] => image/png
+            [tmp_name] => /tmp/phpnKENL9
+            [error] => 0
+            [size] => 355780
+        )
+
+)
+
+2024-10-06 11:42:39 - 접근 확인
+Array
+(
+)
+
+Array
+(
+    [file] => Array
+        (
+            [name] => Event.png
+            [type] => image/png
+            [tmp_name] => /tmp/phpnKENL9
+            [error] => 0
+            [size] => 355780
+        )
+
+)
+
+
+Request Method: POST
+Content Type: multipart/form-data; boundary=----WebKitFormBoundaryaUMO6fwDYSn8wsNE
+Raw input: 
+2024-10-06 11:58:19 - 스크립트 시작
+2024-10-06 11:58:19 - REQUEST_METHOD: GET
+2024-10-06 11:58:19 - FILES: Array
+(
+)
+
+2024-10-06 11:58:19 - HTTP_X_HTTP_METHOD_OVERRIDE: Not set
+2024-10-06 11:58:19 - CONTENT_TYPE: Not set
+2024-10-06 11:58:19 - FILES: Array
+(
+)
+
+2024-10-06 11:58:19 - 접근 확인
+Array
+(
+)
+
+Array
+(
+)
+
+
+Request Method: GET
+Content Type: 
+Raw input: 
+2024-10-06 12:19:26 - 스크립트 시작
+2024-10-06 12:19:26 - REQUEST_METHOD: GET
+2024-10-06 12:19:26 - FILES: Array
+(
+)
+
+2024-10-06 12:19:26 - HTTP_X_HTTP_METHOD_OVERRIDE: Not set
+2024-10-06 12:19:26 - CONTENT_TYPE: Not set
+2024-10-06 12:19:26 - FILES: Array
+(
+)
+
+2024-10-06 12:19:26 - 접근 확인
+Array
+(
+)
+
+Array
+(
+)
+
+
+Request Method: GET
+Content Type: 
+Raw input: 
+2024-10-06 12:20:55 - 스크립트 시작
+2024-10-06 12:20:55 - REQUEST_METHOD: POST
+2024-10-06 12:20:55 - FILES: Array
+(
+    [file] => Array
+        (
+            [name] => Event.png
+            [type] => image/png
+            [tmp_name] => /tmp/phpxQKFlZ
+            [error] => 0
+            [size] => 355780
+        )
+
+)
+
+2024-10-06 12:20:55 - HTTP_X_HTTP_METHOD_OVERRIDE: Not set
+2024-10-06 12:20:55 - CONTENT_TYPE: multipart/form-data; boundary=----WebKitFormBoundaryNd0M5L7x4gAOy4vC
+2024-10-06 12:20:55 - FILES: Array
+(
+    [file] => Array
+        (
+            [name] => Event.png
+            [type] => image/png
+            [tmp_name] => /tmp/phpxQKFlZ
+            [error] => 0
+            [size] => 355780
+        )
+
+)
+
+2024-10-06 12:20:55 - 접근 확인
+Array
+(
+)
+
+Array
+(
+    [file] => Array
+        (
+            [name] => Event.png
+            [type] => image/png
+            [tmp_name] => /tmp/phpxQKFlZ
+            [error] => 0
+            [size] => 355780
+        )
+
+)
+
+
+Request Method: POST
+Content Type: multipart/form-data; boundary=----WebKitFormBoundaryNd0M5L7x4gAOy4vC
+Raw input: 
+2024-10-06 12:24:48 - 스크립트 시작
+2024-10-06 12:24:48 - REQUEST_METHOD: POST
+2024-10-06 12:24:48 - FILES: Array
+(
+)
+
+2024-10-06 12:24:48 - HTTP_X_HTTP_METHOD_OVERRIDE: Not set
+2024-10-06 12:24:48 - CONTENT_TYPE: application/json
+2024-10-06 12:24:48 - FILES: Array
+(
+)
+
+2024-10-06 12:24:48 - 접근 확인
+Array
+(
+)
+
+Array
+(
+)
+
+{"query":"\n    query IntrospectionQuery {\n      __schema {\n        \n        queryType { name }\n        mutationType { name }\n        subscriptionType { name }\n        types {\n          ...FullType\n        }\n        directives {\n          name\n          description\n          \n          locations\n          args {\n            ...InputValue\n          }\n        }\n      }\n    }\n\n    fragment FullType on __Type {\n      kind\n      name\n      description\n      \n      fields(includeDeprecated: true) {\n        name\n        description\n        args {\n          ...InputValue\n        }\n        type {\n          ...TypeRef\n        }\n        isDeprecated\n        deprecationReason\n      }\n      inputFields {\n        ...InputValue\n      }\n      interfaces {\n        ...TypeRef\n      }\n      enumValues(includeDeprecated: true) {\n        name\n        description\n        isDeprecated\n        deprecationReason\n      }\n      possibleTypes {\n        ...TypeRef\n      }\n    }\n\n    fragment InputValue on __InputValue {\n      name\n      description\n      type { ...TypeRef }\n      defaultValue\n      \n      \n    }\n\n    fragment TypeRef on __Type {\n      kind\n      name\n      ofType {\n        kind\n        name\n        ofType {\n          kind\n          name\n          ofType {\n            kind\n            name\n            ofType {\n              kind\n              name\n              ofType {\n                kind\n                name\n                ofType {\n                  kind\n                  name\n                  ofType {\n                    kind\n                    name\n                  }\n                }\n              }\n            }\n          }\n        }\n      }\n    }\n  "}
+Request Method: POST
+Content Type: application/json
+Raw input: {"query":"\n    query IntrospectionQuery {\n      __schema {\n        \n        queryType { name }\n        mutationType { name }\n        subscriptionType { name }\n        types {\n          ...FullType\n        }\n        directives {\n          name\n          description\n          \n          locations\n          args {\n            ...InputValue\n          }\n        }\n      }\n    }\n\n    fragment FullType on __Type {\n      kind\n      name\n      description\n      \n      fields(includeDeprecated: true) {\n        name\n        description\n        args {\n          ...InputValue\n        }\n        type {\n          ...TypeRef\n        }\n        isDeprecated\n        deprecationReason\n      }\n      inputFields {\n        ...InputValue\n      }\n      interfaces {\n        ...TypeRef\n      }\n      enumValues(includeDeprecated: true) {\n        name\n        description\n        isDeprecated\n        deprecationReason\n      }\n      possibleTypes {\n        ...TypeRef\n      }\n    }\n\n    fragment InputValue on __InputValue {\n      name\n      description\n      type { ...TypeRef }\n      defaultValue\n      \n      \n    }\n\n    fragment TypeRef on __Type {\n      kind\n      name\n      ofType {\n        kind\n        name\n        ofType {\n          kind\n          name\n          ofType {\n            kind\n            name\n            ofType {\n              kind\n              name\n              ofType {\n                kind\n                name\n                ofType {\n                  kind\n                  name\n                  ofType {\n                    kind\n                    name\n                  }\n                }\n              }\n            }\n          }\n        }\n      }\n    }\n  "}
+2024-10-06 12:24:49 - 스크립트 시작
+2024-10-06 12:24:49 - REQUEST_METHOD: POST
+2024-10-06 12:24:49 - FILES: Array
+(
+)
+
+2024-10-06 12:24:49 - HTTP_X_HTTP_METHOD_OVERRIDE: Not set
+2024-10-06 12:24:49 - CONTENT_TYPE: application/json
+2024-10-06 12:24:49 - FILES: Array
+(
+)
+
+2024-10-06 12:24:49 - 접근 확인
+Array
+(
+)
+
+Array
+(
+)
+
+{"query":"\n    query IntrospectionQuery {\n      __schema {\n        \n        queryType { name }\n        mutationType { name }\n        subscriptionType { name }\n        types {\n          ...FullType\n        }\n        directives {\n          name\n          description\n          \n          locations\n          args {\n            ...InputValue\n          }\n        }\n      }\n    }\n\n    fragment FullType on __Type {\n      kind\n      name\n      description\n      \n      fields(includeDeprecated: true) {\n        name\n        description\n        args {\n          ...InputValue\n        }\n        type {\n          ...TypeRef\n        }\n        isDeprecated\n        deprecationReason\n      }\n      inputFields {\n        ...InputValue\n      }\n      interfaces {\n        ...TypeRef\n      }\n      enumValues(includeDeprecated: true) {\n        name\n        description\n        isDeprecated\n        deprecationReason\n      }\n      possibleTypes {\n        ...TypeRef\n      }\n    }\n\n    fragment InputValue on __InputValue {\n      name\n      description\n      type { ...TypeRef }\n      defaultValue\n      \n      \n    }\n\n    fragment TypeRef on __Type {\n      kind\n      name\n      ofType {\n        kind\n        name\n        ofType {\n          kind\n          name\n          ofType {\n            kind\n            name\n            ofType {\n              kind\n              name\n              ofType {\n                kind\n                name\n                ofType {\n                  kind\n                  name\n                  ofType {\n                    kind\n                    name\n                  }\n                }\n              }\n            }\n          }\n        }\n      }\n    }\n  "}
+Request Method: POST
+Content Type: application/json
+Raw input: {"query":"\n    query IntrospectionQuery {\n      __schema {\n        \n        queryType { name }\n        mutationType { name }\n        subscriptionType { name }\n        types {\n          ...FullType\n        }\n        directives {\n          name\n          description\n          \n          locations\n          args {\n            ...InputValue\n          }\n        }\n      }\n    }\n\n    fragment FullType on __Type {\n      kind\n      name\n      description\n      \n      fields(includeDeprecated: true) {\n        name\n        description\n        args {\n          ...InputValue\n        }\n        type {\n          ...TypeRef\n        }\n        isDeprecated\n        deprecationReason\n      }\n      inputFields {\n        ...InputValue\n      }\n      interfaces {\n        ...TypeRef\n      }\n      enumValues(includeDeprecated: true) {\n        name\n        description\n        isDeprecated\n        deprecationReason\n      }\n      possibleTypes {\n        ...TypeRef\n      }\n    }\n\n    fragment InputValue on __InputValue {\n      name\n      description\n      type { ...TypeRef }\n      defaultValue\n      \n      \n    }\n\n    fragment TypeRef on __Type {\n      kind\n      name\n      ofType {\n        kind\n        name\n        ofType {\n          kind\n          name\n          ofType {\n            kind\n            name\n            ofType {\n              kind\n              name\n              ofType {\n                kind\n                name\n                ofType {\n                  kind\n                  name\n                  ofType {\n                    kind\n                    name\n                  }\n                }\n              }\n            }\n          }\n        }\n      }\n    }\n  "}
+2024-10-06 12:24:49 - 스크립트 시작
+2024-10-06 12:24:49 - REQUEST_METHOD: POST
+2024-10-06 12:24:49 - FILES: Array
+(
+)
+
+2024-10-06 12:24:49 - HTTP_X_HTTP_METHOD_OVERRIDE: Not set
+2024-10-06 12:24:49 - CONTENT_TYPE: application/json
+2024-10-06 12:24:49 - FILES: Array
+(
+)
+
+2024-10-06 12:24:49 - 접근 확인
+Array
+(
+)
+
+Array
+(
+)
+
+{"query":"\n    query IntrospectionQuery {\n      __schema {\n        \n        queryType { name }\n        mutationType { name }\n        subscriptionType { name }\n        types {\n          ...FullType\n        }\n        directives {\n          name\n          description\n          \n          locations\n          args {\n            ...InputValue\n          }\n        }\n      }\n    }\n\n    fragment FullType on __Type {\n      kind\n      name\n      description\n      \n      fields(includeDeprecated: true) {\n        name\n        description\n        args {\n          ...InputValue\n        }\n        type {\n          ...TypeRef\n        }\n        isDeprecated\n        deprecationReason\n      }\n      inputFields {\n        ...InputValue\n      }\n      interfaces {\n        ...TypeRef\n      }\n      enumValues(includeDeprecated: true) {\n        name\n        description\n        isDeprecated\n        deprecationReason\n      }\n      possibleTypes {\n        ...TypeRef\n      }\n    }\n\n    fragment InputValue on __InputValue {\n      name\n      description\n      type { ...TypeRef }\n      defaultValue\n      \n      \n    }\n\n    fragment TypeRef on __Type {\n      kind\n      name\n      ofType {\n        kind\n        name\n        ofType {\n          kind\n          name\n          ofType {\n            kind\n            name\n            ofType {\n              kind\n              name\n              ofType {\n                kind\n                name\n                ofType {\n                  kind\n                  name\n                  ofType {\n                    kind\n                    name\n                  }\n                }\n              }\n            }\n          }\n        }\n      }\n    }\n  "}
+Request Method: POST
+Content Type: application/json
+Raw input: {"query":"\n    query IntrospectionQuery {\n      __schema {\n        \n        queryType { name }\n        mutationType { name }\n        subscriptionType { name }\n        types {\n          ...FullType\n        }\n        directives {\n          name\n          description\n          \n          locations\n          args {\n            ...InputValue\n          }\n        }\n      }\n    }\n\n    fragment FullType on __Type {\n      kind\n      name\n      description\n      \n      fields(includeDeprecated: true) {\n        name\n        description\n        args {\n          ...InputValue\n        }\n        type {\n          ...TypeRef\n        }\n        isDeprecated\n        deprecationReason\n      }\n      inputFields {\n        ...InputValue\n      }\n      interfaces {\n        ...TypeRef\n      }\n      enumValues(includeDeprecated: true) {\n        name\n        description\n        isDeprecated\n        deprecationReason\n      }\n      possibleTypes {\n        ...TypeRef\n      }\n    }\n\n    fragment InputValue on __InputValue {\n      name\n      description\n      type { ...TypeRef }\n      defaultValue\n      \n      \n    }\n\n    fragment TypeRef on __Type {\n      kind\n      name\n      ofType {\n        kind\n        name\n        ofType {\n          kind\n          name\n          ofType {\n            kind\n            name\n            ofType {\n              kind\n              name\n              ofType {\n                kind\n                name\n                ofType {\n                  kind\n                  name\n                  ofType {\n                    kind\n                    name\n                  }\n                }\n              }\n            }\n          }\n        }\n      }\n    }\n  "}
+2024-10-06 12:28:45 - 스크립트 시작
+2024-10-06 12:28:45 - REQUEST_METHOD: POST
+2024-10-06 12:28:45 - FILES: Array
+(
+    [file] => Array
+        (
+            [name] => Event.png
+            [type] => image/png
+            [tmp_name] => /tmp/phpzw9wee
+            [error] => 0
+            [size] => 355780
+        )
+
+)
+
+2024-10-06 12:28:45 - HTTP_X_HTTP_METHOD_OVERRIDE: Not set
+2024-10-06 12:28:45 - CONTENT_TYPE: multipart/form-data; boundary=----WebKitFormBoundaryHKAxAKioCjfD5AF5
+2024-10-06 12:28:45 - FILES: Array
+(
+    [file] => Array
+        (
+            [name] => Event.png
+            [type] => image/png
+            [tmp_name] => /tmp/phpzw9wee
+            [error] => 0
+            [size] => 355780
+        )
+
+)
+
+2024-10-06 12:28:45 - 접근 확인
+Array
+(
+)
+
+Array
+(
+    [file] => Array
+        (
+            [name] => Event.png
+            [type] => image/png
+            [tmp_name] => /tmp/phpzw9wee
+            [error] => 0
+            [size] => 355780
+        )
+
+)
+
+
+Request Method: POST
+Content Type: multipart/form-data; boundary=----WebKitFormBoundaryHKAxAKioCjfD5AF5
+Raw input: 
+2024-10-06 12:31:17 - 스크립트 시작
+2024-10-06 12:31:17 - REQUEST_METHOD: GET
+2024-10-06 12:31:17 - FILES: Array
+(
+)
+
+2024-10-06 12:31:17 - HTTP_X_HTTP_METHOD_OVERRIDE: Not set
+2024-10-06 12:31:17 - CONTENT_TYPE: Not set
+2024-10-06 12:31:17 - FILES: Array
+(
+)
+
+2024-10-06 12:31:17 - 접근 확인
+Array
+(
+)
+
+Array
+(
+)
+
+
+Request Method: GET
+Content Type: 
+Raw input: 
+2024-10-06 12:42:15 - 스크립트 시작
+2024-10-06 12:42:15 - REQUEST_URI: /api/upload.php
+2024-10-06 12:42:15 - REQUEST_METHOD: GET
+2024-10-06 12:42:15 - FILES: Array
+(
+)
+
+2024-10-06 12:42:15 - HTTP_X_HTTP_METHOD_OVERRIDE: Not set
+2024-10-06 12:42:15 - CONTENT_TYPE: Not set
+2024-10-06 12:42:15 - FILES: Array
+(
+)
+
+2024-10-06 12:42:15 - 접근 확인
+Array
+(
+)
+
+Array
+(
+)
+
+
+Request Method: GET
+Content Type: 
+Raw input: 
+2024-10-06 13:15:51 - 스크립트 시작
+2024-10-06 13:15:51 - REQUEST_URI: /api/upload.php
+2024-10-06 13:15:51 - REQUEST_METHOD: GET
+2024-10-06 13:15:51 - FILES: Array
+(
+)
+
+2024-10-06 13:15:51 - HTTP_X_HTTP_METHOD_OVERRIDE: Not set
+2024-10-06 13:15:51 - CONTENT_TYPE: Not set
+2024-10-06 13:15:51 - FILES: Array
+(
+)
+
+2024-10-06 13:15:51 - 접근 확인
+Array
+(
+)
+
+Array
+(
+)
+
+
+Request Method: GET
+Content Type: 
+Raw input: 
+2024-10-06 13:25:26 - 스크립트 시작
+2024-10-06 13:25:26 - REQUEST_URI: /api/upload.php
+2024-10-06 13:25:26 - REQUEST_METHOD: GET
+2024-10-06 13:25:26 - FILES: Array
+(
+)
+
+2024-10-06 13:25:26 - HTTP_X_HTTP_METHOD_OVERRIDE: Not set
+2024-10-06 13:25:26 - CONTENT_TYPE: Not set
+2024-10-06 13:25:26 - FILES: Array
+(
+)
+
+2024-10-06 13:25:26 - 접근 확인
+Array
+(
+)
+
+Array
+(
+)
+
+
+Request Method: GET
+Content Type: 
+Raw input: 
+2024-10-06 13:30:51 - 스크립트 시작
+2024-10-06 13:30:51 - REQUEST_URI: /api/upload.php
+2024-10-06 13:30:51 - REQUEST_METHOD: GET
+2024-10-06 13:30:51 - FILES: Array
+(
+)
+
+2024-10-06 13:30:51 - HTTP_X_HTTP_METHOD_OVERRIDE: Not set
+2024-10-06 13:30:51 - CONTENT_TYPE: Not set
+2024-10-06 13:30:51 - FILES: Array
+(
+)
+
+2024-10-06 13:30:51 - 접근 확인
+Array
+(
+)
+
+Array
+(
+)
+
+
+Request Method: GET
+Content Type: 
+Raw input: 

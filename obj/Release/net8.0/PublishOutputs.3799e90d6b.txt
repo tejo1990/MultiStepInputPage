@@ -1,0 +1,2 @@
+D:\Csharp\MultiStepInputPage\bin\Release\net8.0\publish\appsettings.json
+D:\Csharp\MultiStepInputPage\bin\Release\net8.0\publish\web.config

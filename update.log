@@ -1,0 +1,398 @@
+Step3Data: 
+Step4Data: 
+Step5Data: https://firebasestorage.googleapis.com/v0/b/expo2024-f235b.appspot.com/o/images%2F001.png?alt=media&token=828ac649-60b4-4f2c-a5e2-d79ce5a9d456
+BoothNumber: 1
+Step3Data: 3254
+Step4Data: 1414
+Step5Data: https://firebasestorage.googleapis.com/v0/b/expo2024-f235b.appspot.com/o/images%2F001.png?alt=media&token=107994aa-1921-4b5a-90d2-75261e3f1607
+BoothNumber: 1
+Step3Data: 3254
+Step4Data: 1414
+Step5Data: https://firebasestorage.googleapis.com/v0/b/expo2024-f235b.appspot.com/o/images%2F001.png?alt=media&token=107994aa-1921-4b5a-90d2-75261e3f1607
+BoothNumber: 1
+쿼리 실행 시작
+SQL 쿼리: UPDATE ContentsKorea SET description = ?, youtubeurl = ?, profileimage_url = ? WHERE booth_number = ?
+Step3Data: 3254
+Step4Data: 1414
+Step5Data: https://firebasestorage.googleapis.com/v0/b/expo2024-f235b.appspot.com/o/images%2F001.png?alt=media&token=107994aa-1921-4b5a-90d2-75261e3f1607
+BoothNumber: 1
+쿼리 실행 시작
+SQL 쿼리: UPDATE ContentsKorea SET description = ?, youtubeurl = ?, profileimage_url = ? WHERE booth_number = ?
+123
+4321
+Step3Data: 3254
+Step4Data: 1414
+Step5Data: https://firebasestorage.googleapis.com/v0/b/expo2024-f235b.appspot.com/o/images%2F001.png?alt=media&token=107994aa-1921-4b5a-90d2-75261e3f1607
+BoothNumber: 1
+쿼리 실행 시작
+SQL 쿼리: UPDATE ContentsKorea SET description = ?, youtubeurl = ?, profileimage_url = ? WHERE booth_number = ?
+123
+4321
+Step3Data: 3254
+Step4Data: 1414
+Step5Data: https://firebasestorage.googleapis.com/v0/b/expo2024-f235b.appspot.com/o/images%2F001.png?alt=media&token=107994aa-1921-4b5a-90d2-75261e3f1607
+BoothNumber: 1
+쿼리 실행 시작
+SQL 쿼리: UPDATE ContentsKorea SET description = ?, youtubeurl = ?, profileimage_url = ? WHERE booth_number = ?
+123
+4321
+Step3Data: 3254
+Step4Data: 1414
+Step5Data: https://firebasestorage.googleapis.com/v0/b/expo2024-f235b.appspot.com/o/images%2F001.png?alt=media&token=107994aa-1921-4b5a-90d2-75261e3f1607
+BoothNumber: 1
+쿼리 실행 시작
+SQL 쿼리: UPDATE ContentsKorea SET description = ?, youtubeurl = ?, profileimage_url = ? WHERE booth_number = ?
+123
+4321
+Step3Data: 514616
+Step4Data: 135476346
+Step5Data: https://firebasestorage.googleapis.com/v0/b/expo2024-f235b.appspot.com/o/images%2F002.png?alt=media&token=5a76d22a-f075-431d-bcca-5ba65b528911
+BoothNumber: 2
+쿼리 실행 시작
+SQL 쿼리: UPDATE ContentsKorea SET description = ?, youtubeurl = ?, profileimage_url = ? WHERE booth_number = ?
+123
+4321
+Step3Data: 514616
+Step4Data: 135476346
+Step5Data: https://firebasestorage.googleapis.com/v0/b/expo2024-f235b.appspot.com/o/images%2F002.png?alt=media&token=5a76d22a-f075-431d-bcca-5ba65b528911
+BoothNumber: 2
+쿼리 실행 시작
+SQL 쿼리: UPDATE ContentsKorea SET description = ?, youtubeurl = ?, profileimage_url = ? WHERE booth_number = ?
+123
+4321
+바인딩 전 파라미터:
+Step3Data: 514616
+Step4Data: 135476346
+Step5Data: https://firebasestorage.googleapis.com/v0/b/expo2024-f235b.appspot.com/o/images%2F002.png?alt=media&token=5a76d22a-f075-431d-bcca-5ba65b528911
+BoothNumber: 2
+Step3Data: 514616
+Step4Data: 135476346
+Step5Data: https://firebasestorage.googleapis.com/v0/b/expo2024-f235b.appspot.com/o/images%2F002.png?alt=media&token=5a76d22a-f075-431d-bcca-5ba65b528911
+BoothNumber: 2
+쿼리 실행 시작
+SQL 쿼리: UPDATE ContentsKorea SET description = ?, youtubeurl = ?, profileimage_url = ? WHERE booth_number = ?
+123
+4321
+바인딩 전 파라미터:
+Step3Data: 514616
+Step4Data: 135476346
+Step5Data: https://firebasestorage.googleapis.com/v0/b/expo2024-f235b.appspot.com/o/images%2F002.png?alt=media&token=5a76d22a-f075-431d-bcca-5ba65b528911
+BoothNumber: 2
+Step3Data: 514616
+Step4Data: 135476346
+Step5Data: https://firebasestorage.googleapis.com/v0/b/expo2024-f235b.appspot.com/o/images%2F002.png?alt=media&token=5a76d22a-f075-431d-bcca-5ba65b528911
+BoothNumber: 2
+쿼리 실행 시작
+SQL 쿼리: UPDATE ContentsKorea SET description = ?, youtubeurl = ?, profileimage_url = ? WHERE booth_number = ?
+123
+4321
+바인딩 전 파라미터:
+Step3Data: 514616
+Step4Data: 135476346
+Step5Data: https://firebasestorage.googleapis.com/v0/b/expo2024-f235b.appspot.com/o/images%2F002.png?alt=media&token=5a76d22a-f075-431d-bcca-5ba65b528911
+BoothNumber: 2
+bind param 전
+Step3Data: 514616
+Step4Data: 135476346
+Step5Data: https://firebasestorage.googleapis.com/v0/b/expo2024-f235b.appspot.com/o/images%2F002.png?alt=media&token=5a76d22a-f075-431d-bcca-5ba65b528911
+BoothNumber: 2
+쿼리 실행 시작
+SQL 쿼리: UPDATE ContentsKorea SET description = ?, youtubeurl = ?, profileimage_url = ? WHERE booth_number = ?
+123
+4321
+바인딩 전 파라미터:
+Step3Data: 514616
+Step4Data: 135476346
+Step5Data: https://firebasestorage.googleapis.com/v0/b/expo2024-f235b.appspot.com/o/images%2F002.png?alt=media&token=5a76d22a-f075-431d-bcca-5ba65b528911
+BoothNumber: 2
+bind param 전
+Step3Data: 4563
+Step4Data: 3246456
+Step5Data: https://firebasestorage.googleapis.com/v0/b/expo2024-f235b.appspot.com/o/images%2F002.png?alt=media&token=f208ce4d-40ac-406e-b02c-8568929569dc
+BoothNumber: 2
+쿼리 실행 시작
+SQL 쿼리: UPDATE ContentsKorea SET description = ?, youtubeurl = ?, profileimage_url = ? WHERE booth_number = ?
+123
+4321
+바인딩 전 파라미터:
+Step3Data: 4563
+Step4Data: 3246456
+Step5Data: https://firebasestorage.googleapis.com/v0/b/expo2024-f235b.appspot.com/o/images%2F002.png?alt=media&token=f208ce4d-40ac-406e-b02c-8568929569dc
+BoothNumber: 2
+bind param 전
+Step3Data: 4563
+Step4Data: 3246456
+Step5Data: https://firebasestorage.googleapis.com/v0/b/expo2024-f235b.appspot.com/o/images%2F002.png?alt=media&token=f208ce4d-40ac-406e-b02c-8568929569dc
+BoothNumber: 2
+쿼리 실행 시작
+SQL 쿼리: UPDATE ContentsKorea SET description = ?, youtubeurl = ?, profileimage_url = ? WHERE booth_number = ?
+123
+4321
+바인딩 전 파라미터:
+Step3Data: 4563
+Step4Data: 3246456
+Step5Data: https://firebasestorage.googleapis.com/v0/b/expo2024-f235b.appspot.com/o/images%2F002.png?alt=media&token=f208ce4d-40ac-406e-b02c-8568929569dc
+BoothNumber: 2
+bind param 전
+Step3Data: 1451345
+Step4Data: 1254154
+Step5Data: https://firebasestorage.googleapis.com/v0/b/expo2024-f235b.appspot.com/o/images%2F001.png?alt=media&token=90425616-e296-4a9a-ba0c-0abbd65e115f
+BoothNumber: 1
+쿼리 실행 시작
+SQL 쿼리: UPDATE ContentsKorea SET description = ?, youtubeurl = ?, profileimage_url = ? WHERE booth_number = ?
+123
+4321
+바인딩 전 파라미터:
+Step3Data: 1451345
+Step4Data: 1254154
+Step5Data: https://firebasestorage.googleapis.com/v0/b/expo2024-f235b.appspot.com/o/images%2F001.png?alt=media&token=90425616-e296-4a9a-ba0c-0abbd65e115f
+BoothNumber: 1
+bind param 전
+Step3Data: 1451345
+Step4Data: 1254154
+Step5Data: https://firebasestorage.googleapis.com/v0/b/expo2024-f235b.appspot.com/o/images%2F001.png?alt=media&token=90425616-e296-4a9a-ba0c-0abbd65e115f
+BoothNumber: 1
+쿼리 실행 시작
+SQL 쿼리: UPDATE ContentsKorea SET description = ?, youtubeurl = ?, profileimage_url = ? WHERE booth_number = ?
+123
+4321
+바인딩 전 파라미터:
+Step3Data: 1451345
+Step4Data: 1254154
+Step5Data: https://firebasestorage.googleapis.com/v0/b/expo2024-f235b.appspot.com/o/images%2F001.png?alt=media&token=90425616-e296-4a9a-ba0c-0abbd65e115f
+BoothNumber: 1
+bind param 전
+bind param 후
+바인딩 후
+Step3Data: 1451345
+Step4Data: 1254154
+Step5Data: https://firebasestorage.googleapis.com/v0/b/expo2024-f235b.appspot.com/o/images%2F001.png?alt=media&token=90425616-e296-4a9a-ba0c-0abbd65e115f
+BoothNumber: 1
+쿼리 실행 시작
+SQL 쿼리: UPDATE ContentsKorea SET description = ?, youtubeurl = ?, profileimage_url = ? WHERE booth_number = ?
+123
+4321
+바인딩 전 파라미터:
+Step3Data: 1451345
+Step4Data: 1254154
+Step5Data: https://firebasestorage.googleapis.com/v0/b/expo2024-f235b.appspot.com/o/images%2F001.png?alt=media&token=90425616-e296-4a9a-ba0c-0abbd65e115f
+BoothNumber: 1
+bind param 전
+bind param 후
+바인딩 후
+쿼리 실행 시도 중...
+쿼리 실행 성공
+Step3Data: 234234
+Step4Data: 12341234
+Step5Data: https://firebasestorage.googleapis.com/v0/b/expo2024-f235b.appspot.com/o/images%2F002.png?alt=media&token=b917308a-3a32-4031-90f8-f68b0eb1e957
+BoothNumber: 2
+쿼리 실행 시작
+SQL 쿼리: UPDATE ContentsKorea SET description = ?, youtubeurl = ?, profileimage_url = ? WHERE booth_number = ?
+123
+4321
+바인딩 전 파라미터:
+Step3Data: 234234
+Step4Data: 12341234
+Step5Data: https://firebasestorage.googleapis.com/v0/b/expo2024-f235b.appspot.com/o/images%2F002.png?alt=media&token=b917308a-3a32-4031-90f8-f68b0eb1e957
+BoothNumber: 2
+bind param 전
+bind param 후
+바인딩 후
+쿼리 실행 시도 중...
+쿼리 실행 성공
+Step3Data: 123
+Step4Data: 34
+Step5Data: https://firebasestorage.googleapis.com/v0/b/expo2024-f235b.appspot.com/o/images%2F001.png?alt=media&token=04d83fd1-4aea-4ff3-a0ce-2065b4598868
+BoothNumber: 1
+쿼리 실행 시작
+SQL 쿼리: UPDATE ContentsKorea SET description = ?, youtubeurl = ?, profileimage_url = ? WHERE booth_number = ?
+123
+4321
+바인딩 전 파라미터:
+Step3Data: 123
+Step4Data: 34
+Step5Data: https://firebasestorage.googleapis.com/v0/b/expo2024-f235b.appspot.com/o/images%2F001.png?alt=media&token=04d83fd1-4aea-4ff3-a0ce-2065b4598868
+BoothNumber: 1
+bind param 전
+bind param 후
+바인딩 후
+쿼리 실행 시도 중...
+쿼리 실행 성공
+Step3Data: 23542354
+Step4Data: 23542354
+Step5Data: https://firebasestorage.googleapis.com/v0/b/expo2024-f235b.appspot.com/o/images%2F004.png?alt=media&token=c80afbab-6876-4296-992c-96e446cc8490
+BoothNumber: 4
+쿼리 실행 시작
+SQL 쿼리: UPDATE ContentsKorea SET description = ?, youtubeurl = ?, profileimage_url = ? WHERE booth_number = ?
+123
+4321
+바인딩 전 파라미터:
+Step3Data: 23542354
+Step4Data: 23542354
+Step5Data: https://firebasestorage.googleapis.com/v0/b/expo2024-f235b.appspot.com/o/images%2F004.png?alt=media&token=c80afbab-6876-4296-992c-96e446cc8490
+BoothNumber: 4
+bind param 전
+bind param 후
+바인딩 후
+쿼리 실행 시도 중...
+쿼리 실행 성공
+Step3Data: 23542354
+Step4Data: 23542354
+Step5Data: https://firebasestorage.googleapis.com/v0/b/expo2024-f235b.appspot.com/o/images%2F004.png?alt=media&token=c80afbab-6876-4296-992c-96e446cc8490
+BoothNumber: 4
+쿼리 실행 시작
+SQL 쿼리: UPDATE ContentsKorea SET description = ?, youtubeurl = ?, profileimage_url = ? WHERE booth_number = ?
+123
+4321
+바인딩 전 파라미터:
+Step3Data: 23542354
+Step4Data: 23542354
+Step5Data: https://firebasestorage.googleapis.com/v0/b/expo2024-f235b.appspot.com/o/images%2F004.png?alt=media&token=c80afbab-6876-4296-992c-96e446cc8490
+BoothNumber: 4
+bind param 전
+bind param 후
+바인딩 후
+쿼리 실행 시도 중...
+쿼리 실행 성공
+Step3Data: 3546
+Step4Data: 345
+Step5Data: https://firebasestorage.googleapis.com/v0/b/expo2024-f235b.appspot.com/o/images%2F004.png?alt=media&token=f4d0bc88-42cd-4126-90e4-12fb3e312d5a
+BoothNumber: 4
+쿼리 실행 시작
+SQL 쿼리: UPDATE ContentsKorea SET description = ?, youtubeurl = ?, profileimage_url = ? WHERE booth_number = ?
+123
+4321
+바인딩 전 파라미터:
+Step3Data: 3546
+Step4Data: 345
+Step5Data: https://firebasestorage.googleapis.com/v0/b/expo2024-f235b.appspot.com/o/images%2F004.png?alt=media&token=f4d0bc88-42cd-4126-90e4-12fb3e312d5a
+BoothNumber: 4
+bind param 전
+bind param 후
+바인딩 후
+쿼리 실행 시도 중...
+쿼리 실행 성공
+Step3Data: 연습중입니다.
+Step4Data: https://youtu.be/ea4LNIvSisI
+Step5Data: https://firebasestorage.googleapis.com/v0/b/expo2024-f235b.appspot.com/o/images%2F001.png?alt=media&token=39117d3f-033e-421e-a5ee-e2944361614a
+BoothNumber: 1
+쿼리 실행 시작
+SQL 쿼리: UPDATE ContentsKorea SET description = ?, youtubeurl = ?, profileimage_url = ? WHERE booth_number = ?
+123
+4321
+바인딩 전 파라미터:
+Step3Data: 연습중입니다.
+Step4Data: https://youtu.be/ea4LNIvSisI
+Step5Data: https://firebasestorage.googleapis.com/v0/b/expo2024-f235b.appspot.com/o/images%2F001.png?alt=media&token=39117d3f-033e-421e-a5ee-e2944361614a
+BoothNumber: 1
+bind param 전
+bind param 후
+바인딩 후
+쿼리 실행 시도 중...
+쿼리 실행 성공
+Step3Data: 안녕하세요 여기는 회사 내용을 쓰는 공간이에요
+Step4Data: https://www.youtube.com/watch?v=nKMU9PKgAWg
+Step5Data: https://firebasestorage.googleapis.com/v0/b/expo2024-f235b.appspot.com/o/images%2F003.png?alt=media&token=704444fe-c265-4876-b3e4-e49a773ce050
+BoothNumber: 3
+쿼리 실행 시작
+SQL 쿼리: UPDATE ContentsKorea SET description = ?, youtubeurl = ?, profileimage_url = ? WHERE booth_number = ?
+123
+4321
+바인딩 전 파라미터:
+Step3Data: 안녕하세요 여기는 회사 내용을 쓰는 공간이에요
+Step4Data: https://www.youtube.com/watch?v=nKMU9PKgAWg
+Step5Data: https://firebasestorage.googleapis.com/v0/b/expo2024-f235b.appspot.com/o/images%2F003.png?alt=media&token=704444fe-c265-4876-b3e4-e49a773ce050
+BoothNumber: 3
+bind param 전
+bind param 후
+바인딩 후
+쿼리 실행 시도 중...
+쿼리 실행 성공
+Step3Data: 설명 테스트 중입니다.
+Step4Data: https://www.youtube.com/watch?v=nKMU9PKgAWg
+Step5Data: https://firebasestorage.googleapis.com/v0/b/expo2024-f235b.appspot.com/o/images%2F001.png?alt=media&token=899ac351-b987-46d6-80af-179dc6a816d1
+BoothNumber: 1
+쿼리 실행 시작
+SQL 쿼리: UPDATE ContentsKorea SET description = ?, youtubeurl = ?, profileimage_url = ? WHERE booth_number = ?
+123
+4321
+바인딩 전 파라미터:
+Step3Data: 설명 테스트 중입니다.
+Step4Data: https://www.youtube.com/watch?v=nKMU9PKgAWg
+Step5Data: https://firebasestorage.googleapis.com/v0/b/expo2024-f235b.appspot.com/o/images%2F001.png?alt=media&token=899ac351-b987-46d6-80af-179dc6a816d1
+BoothNumber: 1
+bind param 전
+bind param 후
+바인딩 후
+쿼리 실행 시도 중...
+쿼리 실행 성공
+Step3Data: 123123
+Step4Data: 321123
+Step5Data: https://firebasestorage.googleapis.com/v0/b/expo2024-f235b.appspot.com/o/images%2F001.png?alt=media&token=17062402-506d-4cb6-b16d-a99a2ff264ca
+BoothNumber: 1
+쿼리 실행 시작
+SQL 쿼리: UPDATE ContentsKorea SET description = ?, youtubeurl = ?, profileimage_url = ? WHERE booth_number = ?
+123
+4321
+바인딩 전 파라미터:
+Step3Data: 123123
+Step4Data: 321123
+Step5Data: https://firebasestorage.googleapis.com/v0/b/expo2024-f235b.appspot.com/o/images%2F001.png?alt=media&token=17062402-506d-4cb6-b16d-a99a2ff264ca
+BoothNumber: 1
+bind param 전
+bind param 후
+바인딩 후
+쿼리 실행 시도 중...
+쿼리 실행 성공
+Step3Data: 테스트중입니다.
+Step4Data: https://www.youtube.com/watch?v=sSoEgOLkX7s
+Step5Data: https://firebasestorage.googleapis.com/v0/b/expo2024-f235b.appspot.com/o/images%2F002.png?alt=media&token=ea38faa2-d649-4d9f-8b4a-4b6bea3c5557
+BoothNumber: 2
+쿼리 실행 시작
+SQL 쿼리: UPDATE ContentsKorea SET description = ?, youtubeurl = ?, profileimage_url = ? WHERE booth_number = ?
+123
+4321
+바인딩 전 파라미터:
+Step3Data: 테스트중입니다.
+Step4Data: https://www.youtube.com/watch?v=sSoEgOLkX7s
+Step5Data: https://firebasestorage.googleapis.com/v0/b/expo2024-f235b.appspot.com/o/images%2F002.png?alt=media&token=ea38faa2-d649-4d9f-8b4a-4b6bea3c5557
+BoothNumber: 2
+bind param 전
+bind param 후
+바인딩 후
+쿼리 실행 시도 중...
+쿼리 실행 성공
+Step3Data: asf
+Step4Data: asdf
+Step5Data: https://firebasestorage.googleapis.com/v0/b/expo2024-f235b.appspot.com/o/images%2FA05.png?alt=media&token=6b2d289c-5e9f-4d0a-81d5-1ba3d7e6d8cc
+BoothNumber: A05
+쿼리 실행 시작
+SQL 쿼리: UPDATE ContentsKorea SET description = ?, youtubeurl = ?, profileimage_url = ? WHERE booth_number = ?
+123
+4321
+바인딩 전 파라미터:
+Step3Data: asf
+Step4Data: asdf
+Step5Data: https://firebasestorage.googleapis.com/v0/b/expo2024-f235b.appspot.com/o/images%2FA05.png?alt=media&token=6b2d289c-5e9f-4d0a-81d5-1ba3d7e6d8cc
+BoothNumber: 0
+bind param 전
+bind param 후
+바인딩 후
+쿼리 실행 시도 중...
+Step3Data: 252
+Step4Data: 1234143
+Step5Data: https://firebasestorage.googleapis.com/v0/b/expo2024-f235b.appspot.com/o/images%2FA07.png?alt=media&token=5c4e6864-ce81-4d68-9e8f-1c499ed94fc7
+BoothNumber: A07
+쿼리 실행 시작
+SQL 쿼리: UPDATE ContentsKorea SET description = ?, youtubeurl = ?, profileimage_url = ? WHERE booth_number = ?
+123
+4321
+바인딩 전 파라미터:
+Step3Data: 252
+Step4Data: 1234143
+Step5Data: https://firebasestorage.googleapis.com/v0/b/expo2024-f235b.appspot.com/o/images%2FA07.png?alt=media&token=5c4e6864-ce81-4d68-9e8f-1c499ed94fc7
+BoothNumber: 0
+bind param 전
+bind param 후
+바인딩 후
+쿼리 실행 시도 중...

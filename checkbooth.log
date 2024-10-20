@@ -1,0 +1,309 @@
+2024-10-06 20:56:04 - boothNumber: 2
+2024-10-06 20:56:43 - boothNumber: 2
+2024-10-06 20:58:08 - boothNumber: 2
+2024-10-06 21:02:07 - boothNumber: 2
+2024-10-06 21:02:07 - SQL 쿼리: SELECT COUNT(*) as count FROM booths WHERE booth_number = ?
+2024-10-06 21:05:50 - boothNumber: 2
+2024-10-06 21:05:50 - 여긴옴?: 
+2024-10-06 21:05:50 - SQL 쿼리: SELECT COUNT(*) as count FROM booths WHERE booth_number = ?
+2024-10-06 21:05:50 - 여긴옴1?: 
+2024-10-06 21:07:37 - boothNumber: 2
+2024-10-06 21:07:37 - 여긴옴?: 
+2024-10-06 21:07:37 - SQL 쿼리: SELECT COUNT(*) as count FROM ContentsKorea WHERE booth_number = ?
+2024-10-06 21:07:37 - 여긴옴1?: 
+2024-10-06 21:07:37 - 쿼리 실행
+2024-10-06 21:07:37 - 결과 가져오기
+2024-10-06 21:11:37 - boothNumber: 2
+2024-10-06 21:11:37 - 여긴옴?: 
+2024-10-06 21:11:37 - SQL 쿼리: SELECT COUNT(*) as count FROM ContentsKorea WHERE booth_number = ?
+2024-10-06 21:11:37 - 여긴옴1?: 
+2024-10-06 21:11:37 - 쿼리 실행
+2024-10-06 21:11:37 - 결과 가져오기
+2024-10-06 21:12:01 - boothNumber: 2
+2024-10-06 21:12:01 - 여긴옴?: 
+2024-10-06 21:12:01 - SQL 쿼리: SELECT COUNT(*) as count FROM ContentsKorea WHERE booth_number = ?
+2024-10-06 21:12:01 - 여긴옴1?: 
+2024-10-06 21:12:01 - 쿼리 실행
+2024-10-06 21:12:01 - 결과 가져오기
+2024-10-06 21:13:14 - boothNumber: 2
+2024-10-06 21:13:14 - 여긴옴?: 
+2024-10-06 21:13:14 - SQL 쿼리: SELECT COUNT(*) as count FROM ContentsKorea WHERE booth_number = ?
+2024-10-06 21:13:14 - 여긴옴1?: 
+2024-10-06 21:13:14 - 쿼리 실행
+2024-10-06 21:13:14 - 결과 가져오기
+2024-10-06 21:14:54 - boothNumber: 2
+2024-10-06 21:14:54 - 여긴옴?: 
+2024-10-06 21:14:54 - SQL 쿼리: SELECT COUNT(*) as count FROM ContentsKorea WHERE booth_number = ?
+2024-10-06 21:14:54 - 여긴옴1?: 
+2024-10-06 21:14:54 - 쿼리 실행
+2024-10-06 21:14:54 - 결과 가져오기
+2024-10-06 21:16:46 - boothNumber: 2
+2024-10-06 21:16:46 - 여긴옴?: 
+2024-10-06 21:16:46 - SQL 쿼리: SELECT COUNT(*) as count FROM ContentsKorea WHERE booth_number = ?
+2024-10-06 21:16:46 - 여긴옴1?: 
+2024-10-06 21:16:46 - 쿼리 실행
+2024-10-06 21:16:46 - 결과 가져오기
+2024-10-06 21:18:23 - boothNumber: 2
+2024-10-06 21:18:23 - 여긴옴?: 
+2024-10-06 21:18:23 - SQL 쿼리: SELECT COUNT(*) as count FROM ContentsKorea WHERE booth_number = ?
+2024-10-06 21:18:23 - 여긴옴1?: 
+2024-10-06 21:18:23 - 쿼리 실행
+2024-10-06 21:18:23 - 결과 가져오기
+2024-10-06 21:20:09 - boothNumber: 2
+2024-10-06 21:20:09 - 여긴옴?: 
+2024-10-06 21:20:09 - SQL 쿼리: SELECT COUNT(*) as count FROM ContentsKorea WHERE booth_number = ?
+2024-10-06 21:20:09 - 여긴옴1?: 
+2024-10-06 21:20:09 - 쿼리 실행
+2024-10-06 21:20:09 - 결과 가져오기
+2024-10-06 21:21:18 - boothNumber: 2
+2024-10-06 21:21:18 - 여긴옴?: 
+2024-10-06 21:21:18 - SQL 쿼리: SELECT COUNT(*) as count FROM ContentsKorea WHERE booth_number = ?
+2024-10-06 21:21:18 - 여긴옴1?: 
+2024-10-06 21:21:18 - 쿼리 실행
+2024-10-06 21:21:18 - 결과 가져오기
+2024-10-06 21:22:10 - boothNumber: 1
+2024-10-06 21:22:10 - 여긴옴?: 
+2024-10-06 21:22:10 - SQL 쿼리: SELECT COUNT(*) as count FROM ContentsKorea WHERE booth_number = ?
+2024-10-06 21:22:10 - 여긴옴1?: 
+2024-10-06 21:22:10 - 쿼리 실행
+2024-10-06 21:22:10 - 결과 가져오기
+2024-10-06 21:24:43 - boothNumber: 1
+2024-10-06 21:24:43 - 여긴옴?: 
+2024-10-06 21:24:43 - SQL 쿼리: SELECT COUNT(*) as count FROM ContentsKorea WHERE booth_number = ?
+2024-10-06 21:24:43 - 여긴옴1?: 
+2024-10-06 21:24:43 - 쿼리 실행
+2024-10-06 21:24:43 - 결과 가져오기
+2024-10-06 21:28:29 - boothNumber: 1
+2024-10-06 21:28:29 - 여긴옴?: 
+2024-10-06 21:28:29 - SQL 쿼리: SELECT COUNT(*) as count FROM ContentsKorea WHERE booth_number = ?
+2024-10-06 21:28:29 - 여긴옴1?: 
+2024-10-06 21:28:29 - 쿼리 실행
+2024-10-06 21:28:29 - 결과 가져오기
+2024-10-06 21:33:03 - boothNumber: 1
+2024-10-06 21:33:03 - 여긴옴?: 
+2024-10-06 21:33:03 - SQL 쿼리: SELECT COUNT(*) as count FROM ContentsKorea WHERE booth_number = ?
+2024-10-06 21:33:03 - 여긴옴1?: 
+2024-10-06 21:33:03 - 쿼리 실행
+2024-10-06 21:33:03 - 결과 가져오기
+2024-10-06 21:40:57 - boothNumber: 1
+2024-10-06 21:40:57 - 여긴옴?: 
+2024-10-06 21:40:57 - SQL 쿼리: SELECT COUNT(*) as count FROM ContentsKorea WHERE booth_number = ?
+2024-10-06 21:40:57 - 여긴옴1?: 
+2024-10-06 21:40:57 - 쿼리 실행
+2024-10-06 21:40:57 - 결과 가져오기
+2024-10-06 21:45:16 - boothNumber: 1
+2024-10-06 21:45:16 - 여긴옴?: 
+2024-10-06 21:45:16 - SQL 쿼리: SELECT COUNT(*) as count FROM ContentsKorea WHERE booth_number = ?
+2024-10-06 21:45:16 - 여긴옴1?: 
+2024-10-06 21:45:16 - 쿼리 실행
+2024-10-06 21:45:16 - 결과 가져오기
+2024-10-06 21:46:19 - boothNumber: 1
+2024-10-06 21:46:19 - 여긴옴?: 
+2024-10-06 21:46:19 - SQL 쿼리: SELECT COUNT(*) as count FROM ContentsKorea WHERE booth_number = ?
+2024-10-06 21:46:19 - 여긴옴1?: 
+2024-10-06 21:46:19 - 쿼리 실행
+2024-10-06 21:46:19 - 결과 가져오기
+2024-10-06 21:47:14 - boothNumber: 1
+2024-10-06 21:47:14 - 여긴옴?: 
+2024-10-06 21:47:14 - SQL 쿼리: SELECT COUNT(*) as count FROM ContentsKorea WHERE booth_number = ?
+2024-10-06 21:47:14 - 여긴옴1?: 
+2024-10-06 21:47:14 - 쿼리 실행
+2024-10-06 21:47:14 - 결과 가져오기
+2024-10-06 21:48:33 - boothNumber: 1
+2024-10-06 21:48:33 - 여긴옴?: 
+2024-10-06 21:48:33 - SQL 쿼리: SELECT COUNT(*) as count FROM ContentsKorea WHERE booth_number = ?
+2024-10-06 21:48:33 - 여긴옴1?: 
+2024-10-06 21:48:33 - 쿼리 실행
+2024-10-06 21:48:33 - 결과 가져오기
+2024-10-06 21:50:31 - boothNumber: 1
+2024-10-06 21:50:31 - 여긴옴?: 
+2024-10-06 21:50:31 - SQL 쿼리: SELECT COUNT(*) as count FROM ContentsKorea WHERE booth_number = ?
+2024-10-06 21:50:31 - 여긴옴1?: 
+2024-10-06 21:50:31 - 쿼리 실행
+2024-10-06 21:50:31 - 결과 가져오기
+2024-10-06 21:51:10 - boothNumber: 2
+2024-10-06 21:51:10 - 여긴옴?: 
+2024-10-06 21:51:10 - SQL 쿼리: SELECT COUNT(*) as count FROM ContentsKorea WHERE booth_number = ?
+2024-10-06 21:51:10 - 여긴옴1?: 
+2024-10-06 21:51:10 - 쿼리 실행
+2024-10-06 21:51:10 - 결과 가져오기
+2024-10-06 21:52:24 - boothNumber: 2
+2024-10-06 21:52:24 - 여긴옴?: 
+2024-10-06 21:52:24 - SQL 쿼리: SELECT COUNT(*) as count FROM ContentsKorea WHERE booth_number = ?
+2024-10-06 21:52:24 - 여긴옴1?: 
+2024-10-06 21:52:24 - 쿼리 실행
+2024-10-06 21:52:24 - 결과 가져오기
+2024-10-06 21:57:43 - boothNumber: 2
+2024-10-06 21:57:43 - 여긴옴?: 
+2024-10-06 21:57:43 - SQL 쿼리: SELECT COUNT(*) as count FROM ContentsKorea WHERE booth_number = ?
+2024-10-06 21:57:43 - 여긴옴1?: 
+2024-10-06 21:57:43 - 쿼리 실행
+2024-10-06 21:57:43 - 결과 가져오기
+2024-10-06 21:58:30 - boothNumber: 2
+2024-10-06 21:58:30 - 여긴옴?: 
+2024-10-06 21:58:30 - SQL 쿼리: SELECT COUNT(*) as count FROM ContentsKorea WHERE booth_number = ?
+2024-10-06 21:58:30 - 여긴옴1?: 
+2024-10-06 21:58:30 - 쿼리 실행
+2024-10-06 21:58:30 - 결과 가져오기
+2024-10-06 22:02:15 - boothNumber: 2
+2024-10-06 22:02:15 - 여긴옴?: 
+2024-10-06 22:02:15 - SQL 쿼리: SELECT COUNT(*) as count FROM ContentsKorea WHERE booth_number = ?
+2024-10-06 22:02:15 - 여긴옴1?: 
+2024-10-06 22:02:15 - 쿼리 실행
+2024-10-06 22:02:15 - 결과 가져오기
+2024-10-06 22:02:58 - boothNumber: 2
+2024-10-06 22:02:58 - 여긴옴?: 
+2024-10-06 22:02:58 - SQL 쿼리: SELECT COUNT(*) as count FROM ContentsKorea WHERE booth_number = ?
+2024-10-06 22:02:58 - 여긴옴1?: 
+2024-10-06 22:02:58 - 쿼리 실행
+2024-10-06 22:02:58 - 결과 가져오기
+2024-10-06 22:10:49 - boothNumber: 2
+2024-10-06 22:10:49 - 여긴옴?: 
+2024-10-06 22:10:49 - SQL 쿼리: SELECT COUNT(*) as count FROM ContentsKorea WHERE booth_number = ?
+2024-10-06 22:10:49 - 여긴옴1?: 
+2024-10-06 22:10:49 - 쿼리 실행
+2024-10-06 22:10:49 - 결과 가져오기
+2024-10-06 22:11:20 - boothNumber: 1
+2024-10-06 22:11:20 - 여긴옴?: 
+2024-10-06 22:11:20 - SQL 쿼리: SELECT COUNT(*) as count FROM ContentsKorea WHERE booth_number = ?
+2024-10-06 22:11:20 - 여긴옴1?: 
+2024-10-06 22:11:20 - 쿼리 실행
+2024-10-06 22:11:20 - 결과 가져오기
+2024-10-06 22:13:23 - boothNumber: 1
+2024-10-06 22:13:23 - 여긴옴?: 
+2024-10-06 22:13:23 - SQL 쿼리: SELECT COUNT(*) as count FROM ContentsKorea WHERE booth_number = ?
+2024-10-06 22:13:23 - 여긴옴1?: 
+2024-10-06 22:13:23 - 쿼리 실행
+2024-10-06 22:13:23 - 결과 가져오기
+2024-10-06 22:15:59 - boothNumber: 1
+2024-10-06 22:15:59 - 여긴옴?: 
+2024-10-06 22:15:59 - SQL 쿼리: SELECT COUNT(*) as count FROM ContentsKorea WHERE booth_number = ?
+2024-10-06 22:15:59 - 여긴옴1?: 
+2024-10-06 22:15:59 - 쿼리 실행
+2024-10-06 22:15:59 - 결과 가져오기
+2024-10-06 22:17:00 - boothNumber: 2
+2024-10-06 22:17:00 - 여긴옴?: 
+2024-10-06 22:17:00 - SQL 쿼리: SELECT COUNT(*) as count FROM ContentsKorea WHERE booth_number = ?
+2024-10-06 22:17:00 - 여긴옴1?: 
+2024-10-06 22:17:00 - 쿼리 실행
+2024-10-06 22:17:00 - 결과 가져오기
+2024-10-06 22:18:55 - boothNumber: 3
+2024-10-06 22:18:55 - 여긴옴?: 
+2024-10-06 22:18:55 - SQL 쿼리: SELECT COUNT(*) as count FROM ContentsKorea WHERE booth_number = ?
+2024-10-06 22:18:55 - 여긴옴1?: 
+2024-10-06 22:18:55 - 쿼리 실행
+2024-10-06 22:18:55 - 결과 가져오기
+2024-10-06 22:21:42 - boothNumber: 3
+2024-10-06 22:21:42 - 여긴옴?: 
+2024-10-06 22:21:42 - SQL 쿼리: SELECT COUNT(*) as count FROM ContentsKorea WHERE booth_number = ?
+2024-10-06 22:21:42 - 여긴옴1?: 
+2024-10-06 22:21:42 - 쿼리 실행
+2024-10-06 22:21:42 - 결과 가져오기
+2024-10-06 22:21:52 - boothNumber: 3
+2024-10-06 22:21:52 - 여긴옴?: 
+2024-10-06 22:21:52 - SQL 쿼리: SELECT COUNT(*) as count FROM ContentsKorea WHERE booth_number = ?
+2024-10-06 22:21:52 - 여긴옴1?: 
+2024-10-06 22:21:52 - 쿼리 실행
+2024-10-06 22:21:52 - 결과 가져오기
+2024-10-06 22:22:54 - boothNumber: 3
+2024-10-06 22:22:54 - 여긴옴?: 
+2024-10-06 22:22:54 - SQL 쿼리: SELECT COUNT(*) as count FROM ContentsKorea WHERE booth_number = ?
+2024-10-06 22:22:54 - 여긴옴1?: 
+2024-10-06 22:22:54 - 쿼리 실행
+2024-10-06 22:22:54 - 결과 가져오기
+2024-10-08 06:31:12 - boothNumber: 1
+2024-10-08 06:31:12 - 여긴옴?: 
+2024-10-08 06:31:12 - SQL 쿼리: SELECT COUNT(*) as count FROM ContentsKorea WHERE booth_number = ?
+2024-10-08 06:31:12 - 여긴옴1?: 
+2024-10-08 06:31:12 - 쿼리 실행
+2024-10-08 06:31:12 - 결과 가져오기
+2024-10-08 22:39:59 - boothNumber: 5
+2024-10-08 22:39:59 - 여긴옴?: 
+2024-10-08 22:39:59 - SQL 쿼리: SELECT COUNT(*) as count FROM ContentsKorea WHERE booth_number = ?
+2024-10-08 22:39:59 - 여긴옴1?: 
+2024-10-08 22:39:59 - 쿼리 실행
+2024-10-08 22:39:59 - 결과 가져오기
+2024-10-08 22:40:27 - boothNumber: 4
+2024-10-08 22:40:27 - 여긴옴?: 
+2024-10-08 22:40:27 - SQL 쿼리: SELECT COUNT(*) as count FROM ContentsKorea WHERE booth_number = ?
+2024-10-08 22:40:27 - 여긴옴1?: 
+2024-10-08 22:40:27 - 쿼리 실행
+2024-10-08 22:40:27 - 결과 가져오기
+2024-10-08 22:51:41 - boothNumber: 4
+2024-10-08 22:51:42 - 여긴옴?: 
+2024-10-08 22:51:42 - SQL 쿼리: SELECT COUNT(*) as count FROM ContentsKorea WHERE booth_number = ?
+2024-10-08 22:51:42 - 여긴옴1?: 
+2024-10-08 22:51:42 - 쿼리 실행
+2024-10-08 22:51:42 - 결과 가져오기
+2024-10-08 22:51:45 - boothNumber: 4
+2024-10-08 22:51:45 - 여긴옴?: 
+2024-10-08 22:51:45 - SQL 쿼리: SELECT COUNT(*) as count FROM ContentsKorea WHERE booth_number = ?
+2024-10-08 22:51:45 - 여긴옴1?: 
+2024-10-08 22:51:45 - 쿼리 실행
+2024-10-08 22:51:45 - 결과 가져오기
+2024-10-08 22:54:38 - boothNumber: 4
+2024-10-08 22:54:38 - 여긴옴?: 
+2024-10-08 22:54:38 - SQL 쿼리: SELECT COUNT(*) as count FROM ContentsKorea WHERE booth_number = ?
+2024-10-08 22:54:38 - 여긴옴1?: 
+2024-10-08 22:54:38 - 쿼리 실행
+2024-10-08 22:54:38 - 결과 가져오기
+2024-10-08 23:33:03 - boothNumber: 1
+2024-10-08 23:33:03 - 여긴옴?: 
+2024-10-08 23:33:03 - SQL 쿼리: SELECT COUNT(*) as count FROM ContentsKorea WHERE booth_number = ?
+2024-10-08 23:33:03 - 여긴옴1?: 
+2024-10-08 23:33:03 - 쿼리 실행
+2024-10-08 23:33:03 - 결과 가져오기
+2024-10-10 18:24:06 - boothNumber: 20
+2024-10-10 18:24:06 - 여긴옴?: 
+2024-10-10 18:24:06 - SQL 쿼리: SELECT COUNT(*) as count FROM ContentsKorea WHERE booth_number = ?
+2024-10-10 18:24:06 - 여긴옴1?: 
+2024-10-10 18:24:06 - 쿼리 실행
+2024-10-10 18:24:06 - 결과 가져오기
+2024-10-14 18:19:03 - boothNumber: 3
+2024-10-14 18:19:03 - 여긴옴?: 
+2024-10-14 18:19:03 - SQL 쿼리: SELECT COUNT(*) as count FROM ContentsKorea WHERE booth_number = ?
+2024-10-14 18:19:03 - 여긴옴1?: 
+2024-10-14 18:19:03 - 쿼리 실행
+2024-10-14 18:19:03 - 결과 가져오기
+2024-10-17 08:44:08 - boothNumber: 2
+2024-10-17 08:44:08 - 여긴옴?: 
+2024-10-17 08:44:08 - SQL 쿼리: SELECT COUNT(*) as count FROM ContentsKorea WHERE booth_number = ?
+2024-10-17 08:44:08 - 여긴옴1?: 
+2024-10-17 08:44:08 - 쿼리 실행
+2024-10-17 08:44:08 - 결과 가져오기
+2024-10-18 15:42:39 - boothNumber: 3
+2024-10-18 15:42:39 - 여긴옴?: 
+2024-10-18 15:42:39 - SQL 쿼리: SELECT COUNT(*) as count FROM ContentsKorea WHERE booth_number = ?
+2024-10-18 15:42:39 - 여긴옴1?: 
+2024-10-18 15:42:39 - 쿼리 실행
+2024-10-18 15:42:39 - 결과 가져오기
+2024-10-18 15:52:26 - boothNumber: 1
+2024-10-18 15:52:26 - 여긴옴?: 
+2024-10-18 15:52:26 - SQL 쿼리: SELECT COUNT(*) as count FROM ContentsKorea WHERE booth_number = ?
+2024-10-18 15:52:26 - 여긴옴1?: 
+2024-10-18 15:52:26 - 쿼리 실행
+2024-10-18 15:52:26 - 결과 가져오기
+2024-10-20 14:51:55 - boothNumber: 1
+2024-10-20 14:51:55 - 여긴옴?: 
+2024-10-20 14:51:55 - SQL 쿼리: SELECT COUNT(*) as count FROM ContentsKorea WHERE booth_number = ?
+2024-10-20 14:51:55 - 여긴옴1?: 
+2024-10-20 14:51:55 - 쿼리 실행
+2024-10-20 14:51:55 - 결과 가져오기
+2024-10-20 15:07:40 - boothNumber: 2
+2024-10-20 15:07:40 - 여긴옴?: 
+2024-10-20 15:07:40 - SQL 쿼리: SELECT COUNT(*) as count FROM ContentsKorea WHERE booth_number = ?
+2024-10-20 15:07:40 - 여긴옴1?: 
+2024-10-20 15:07:40 - 쿼리 실행
+2024-10-20 15:07:40 - 결과 가져오기
+2024-10-20 22:45:41 - boothNumber: A05
+2024-10-20 22:45:41 - 여긴옴?: 
+2024-10-20 22:45:41 - SQL 쿼리: SELECT COUNT(*) as count FROM ContentsKorea WHERE booth_number = ?
+2024-10-20 22:45:41 - 여긴옴1?: 
+2024-10-20 22:45:41 - 쿼리 실행
+2024-10-20 22:45:41 - 결과 가져오기
+2024-10-20 23:17:33 - boothNumber: A07
+2024-10-20 23:17:33 - 여긴옴?: 
+2024-10-20 23:17:33 - SQL 쿼리: SELECT COUNT(*) as count FROM ContentsKorea WHERE booth_number = ?
+2024-10-20 23:17:33 - 여긴옴1?: 
+2024-10-20 23:17:33 - 쿼리 실행
+2024-10-20 23:17:33 - 결과 가져오기

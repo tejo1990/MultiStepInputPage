@@ -1,12 +1,15 @@
+@page "/step1"
+
 @inject HttpClient HttpClient
 @inject NavigationManager NavigationManager
 @inject IJSRuntime JSRuntime
+@inject BoothStateService BoothState
 
 <div class="step-container">
     <h4>Step 1: 로그인</h4>
     <div class="form-group">
         <label for="boothNumber">부스 번호:</label>
-        <input type="number" id="boothNumber" class="form-control" @bind="boothNumber" min="1" max="150" />
+        <input type="text" id="boothNumber" class="form-control" @bind="boothNumber" maxlength="3" />
     </div>
     <div class="form-group">
         <label for="accessCode">접근 번호:</label>
@@ -16,7 +19,7 @@
 </div>
 
 @code {
-    private int boothNumber;
+    private string? boothNumber = "";
     private string accessCode = "";
     private List<string>? accessList;
 
@@ -27,8 +30,10 @@
     {
         try
         {
-            var fileContent = await HttpClient.GetStringAsync("access.txt");
-            accessList = fileContent.Split('\n').ToList();
+            // 캐시를 무시하기 위해 쿼리 문자열 추가
+            var fileContent = await HttpClient.GetStringAsync($"access.txt?v={DateTime.Now.Ticks}");
+            accessList = fileContent.Split('\n').Select(line => line.Trim()).Where(line => !string.IsNullOrEmpty(line)).ToList();
+            foreach (var line in accessList) Console.WriteLine($"accessList: {line}");
         }
         catch (HttpRequestException ex)
         {
@@ -39,6 +44,12 @@
 
     private async Task HandleLogin()
     {
+        if (boothNumber == "999" && accessCode == "000000")
+        {
+            NavigationManager.NavigateTo("/admin");
+            return;
+        }
+
         if (accessList == null)
         {
             await JSRuntime.InvokeVoidAsync("alert", "접근 정보가 로드되지 않았습니다. 페이지를 새로고침해 주세요.");
@@ -47,14 +58,20 @@
 
         var validAccess = accessList.FirstOrDefault(line => 
         {
-            var parts = line.Split('=');
-            return parts.Length == 2 && parts[0] == boothNumber.ToString() && parts[1].Trim() == accessCode;
+            var parts = line.Split('|').Select(p => p.Trim()).ToArray();
+            return parts.Length >= 3 && parts[0] == boothNumber && parts[2] == accessCode;
         });
+
+        Console.WriteLine($"현재 validAccess: {validAccess}, boothNumber: {boothNumber}, accessCode: {accessCode}");
 
         if (validAccess != null)
         {
-            await JSRuntime.InvokeVoidAsync("alert", "로그인 성공!");
-            await OnNext.InvokeAsync();
+            BoothState.SetBoothNumber(boothNumber); // 부스 번호 설정
+
+            Console.WriteLine($"step1BoothNumber: {BoothState.BoothNumber}");
+
+            await JSRuntime.InvokeVoidAsync("alert", "접근이 허용되었습니다!");
+            await OnNext.InvokeAsync();  // OnNext 이벤트 발동
         }
         else
         {

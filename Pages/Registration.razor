@@ -1,4 +1,4 @@
-@page "/registration"
+@page "/"
 @using Microsoft.AspNetCore.Components
 
 <div class="multistep-form-container">
@@ -6,7 +6,7 @@
 
     @if (currentStep == 1)
     {
-        <Step1 OnNext="NextStep" />
+        <Step1 OnNext="NextStep" />  // Step1에서 OnSkipToStep3 제거
     }
     else if (currentStep == 2)
     {
@@ -18,15 +18,11 @@
     }
     else if (currentStep == 4)
     {
-        <Step4 OnNext="NextStep" OnPrevious="PreviousStep" />
-    }
-    else if (currentStep == 5)
-    {
-        <Step5 OnPrevious="PreviousStep" OnSubmit="SubmitForm" />
+        <Step4 OnPrevious="PreviousStep" OnReturnToStep1="ReturnToStep1" />  // OnNext 제거
     }
 
     <div class="step-indicator">
-        @for (int i = 1; i <= 5; i++)
+        @for (int i = 1; i <= 4; i++)  // 5에서 4로 변경
         {
             <div class="step @(i <= currentStep ? "active" : "")"></div>
         }
@@ -34,7 +30,7 @@
 </div>
 
 @code {
-    private int currentStep = 1;
+    private int currentStep = 1;  // 초기화면을 Step1로 설정
 
     private void NextStep()
     {
@@ -46,10 +42,21 @@
         currentStep--;
     }
 
+    private void SkipToStep3()
+    {
+        currentStep = 3;
+    }
+
     private void SubmitForm()
     {
         // 폼 제출 처리 로직
         Console.WriteLine("양식이 제출되었습니다!");
+    }
+
+    private void ReturnToStep1()
+    {
+        currentStep = 1;
+        // Step 1 화면으로 돌아가는 로직
     }
 }
 
