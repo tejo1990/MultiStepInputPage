@@ -1,8 +1,9 @@
 @page "/"
 @using Microsoft.AspNetCore.Components
+@inject BoothStateService BoothState
 
 <div class="multistep-form-container">
-    <h3 class="form-title">KGCOMPANY</h3>
+
 
     @if (currentStep == 1)
     {

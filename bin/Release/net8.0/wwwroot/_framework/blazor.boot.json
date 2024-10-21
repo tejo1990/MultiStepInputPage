@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "MultiStepInputPage",
   "resources": {
-    "hash": "sha256-dnWeNAk9a5nWts82Saf66mQIpCYPa7CK78UdpspSFEU=",
+    "hash": "sha256-TjPTlTc3Cd4AOZazaWz+yy/bUnCFucLLsrPP4dTnBy4=",
     "jsModuleNative": {
       "dotnet.native.8.0.8.gdl0969age.js": "sha256-juC5sA7gHTLXFEhAKgdM2/RavswpwCtDfjYGsAz2FXg="
     },
@@ -227,10 +227,10 @@
       "mscorlib.wasm": "sha256-Gz8PyW2/fwihe5ul81OwmRUrU71r+KtbyRw6xlOGD+Q=",
       "netstandard.wasm": "sha256-jMTqIQzoDS810lyhZpMO5eEC36EzntXqSVn+2qwkOMQ=",
       "System.Private.CoreLib.wasm": "sha256-NFj5WE5VLP2LptZIRJCUIc1AMk06FmxpsSILfPISwAw=",
-      "MultiStepInputPage.wasm": "sha256-yoqdL8t6pui6hTpUdx9CdcxrIPqvIRsvnDsvcQpqTY0="
+      "MultiStepInputPage.wasm": "sha256-q+lHWH4ChnGG3pOPUTBMQ1ayMQDI+Tp+nVI0/Xbay2s="
     },
     "pdb": {
-      "MultiStepInputPage.pdb": "sha256-aboghdagz1vf4+6fXUi/us8RbVdTdoc1XhKzuTeQU6Q="
+      "MultiStepInputPage.pdb": "sha256-JqJzNi7jbVrTLAbqOC/oM3DmCA4VY4fxPFyAjdH0CAk="
     }
   },
   "cacheBootResources": true,

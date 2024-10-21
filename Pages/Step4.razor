@@ -1,3 +1,4 @@
+@page "/step4"
 @using Firebase.Storage
 @using Microsoft.AspNetCore.Hosting
 @using System.Net
@@ -7,6 +8,7 @@
 @inject IJSRuntime JSRuntime
 @inject BoothStateService BoothState
 @inject IDataService DataService
+@inject NavigationManager NavigationManager
 
 @code {
     [Parameter]
@@ -20,10 +22,7 @@
 
     private void GoPrevious()
     {
-        if (OnPrevious.HasDelegate)
-        {
-            OnPrevious.InvokeAsync();  // 이전 단계로 이동
-        }
+        NavigationManager.NavigateTo("/step3");
     }
 
     private async Task Submit()
@@ -53,10 +52,8 @@
             if (success)
             {
                 await JSRuntime.InvokeVoidAsync("alert", "데이터가 성공적으로 저장되었습니다.");
-                if (OnReturnToStep1.HasDelegate)
-                {
-                    await OnReturnToStep1.InvokeAsync();  // Step 1으로 돌아가기
-                }
+                BoothState.Reset();
+                NavigationManager.NavigateTo("/step1");
             }
             else
             {
@@ -71,7 +68,7 @@
 
     private async Task<bool> SaveBoothDataToApi(BoothData boothData)
     {
-        string apiUrl = "http://chicline-beauty.com/api/";
+        string apiUrl = "http://kgcompany.site/api/";
         string endpoint; 
         var torf = await CheckBoothExistence(boothData.BoothNumber);
         Console.WriteLine($"CheckBoothExistence: {torf}");
@@ -86,7 +83,7 @@
 
     private async Task<bool> CheckBoothExistence(string? boothNumber)
     {
-        var response = await HttpClient.GetAsync($"http://chicline-beauty.com/api/checkBooth.php?boothNumber={boothNumber}");
+        var response = await HttpClient.GetAsync($"http://kgcompany.site/api/checkBooth.php?boothNumber={boothNumber}");
         Console.WriteLine($"CheckBoothExistence response: {response.ToString()}");
         var responseContent = await response.Content.ReadAsStringAsync();
         
@@ -222,6 +219,10 @@
     }
 }
 
+<h3 class="form-title">
+        @(string.IsNullOrEmpty(BoothState.CompanyName) ? "KGCOMPANY" : BoothState.CompanyName) 
+        @(string.IsNullOrEmpty(BoothState.BoothNumber) ? "" : $"- 부스 번호: {BoothState.BoothNumber}")
+    </h3>
 <h4>Step 4: 포스터 업로드</h4>
 <div class="step-container">
     <p>게시하고자 하는 이미지를 업로드 해주세요.</p>
@@ -266,6 +267,13 @@
 </div>
 
 <style>
+
+    h3 {
+        color: #ecf0f1;
+    }
+    h4 {
+        color: #ecf0f1;
+    }
     .step-container {
         background-color: #34495e;
         padding: 20px;

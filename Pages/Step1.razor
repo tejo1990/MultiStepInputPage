@@ -5,8 +5,16 @@
 @inject IJSRuntime JSRuntime
 @inject BoothStateService BoothState
 
+
+    <h3 class="form-title">
+        @(string.IsNullOrEmpty(BoothState.CompanyName) ? "콘텐츠코리아2024" : BoothState.CompanyName) 
+        @(string.IsNullOrEmpty(BoothState.BoothNumber) ? "" : $"- 부스 번호: {BoothState.BoothNumber}")
+    </h3>
+    
 <div class="step-container">
+
     <h4>Step 1: 로그인</h4>
+    
     <div class="form-group">
         <label for="boothNumber">부스 번호:</label>
         <input type="text" id="boothNumber" class="form-control" @bind="boothNumber" maxlength="3" />
@@ -33,7 +41,6 @@
             // 캐시를 무시하기 위해 쿼리 문자열 추가
             var fileContent = await HttpClient.GetStringAsync($"access.txt?v={DateTime.Now.Ticks}");
             accessList = fileContent.Split('\n').Select(line => line.Trim()).Where(line => !string.IsNullOrEmpty(line)).ToList();
-            foreach (var line in accessList) Console.WriteLine($"accessList: {line}");
         }
         catch (HttpRequestException ex)
         {
@@ -62,16 +69,20 @@
             return parts.Length >= 3 && parts[0] == boothNumber && parts[2] == accessCode;
         });
 
-        Console.WriteLine($"현재 validAccess: {validAccess}, boothNumber: {boothNumber}, accessCode: {accessCode}");
+        //Console.WriteLine($"현재 validAccess: {validAccess}, boothNumber: {boothNumber}, accessCode: {accessCode}");
 
         if (validAccess != null)
         {
-            BoothState.SetBoothNumber(boothNumber); // 부스 번호 설정
+            var parts = validAccess.Split('|').Select(p => p.Trim()).ToArray();
+            string companyName = parts.Length > 1 ? parts[1] : "알 수 없음";
 
-            Console.WriteLine($"step1BoothNumber: {BoothState.BoothNumber}");
+            BoothState.SetBoothNumber(boothNumber);
+            BoothState.SetCompanyName(companyName);
+
+            Console.WriteLine($"step1BoothNumber: {BoothState.BoothNumber}, CompanyName: {BoothState.CompanyName}");
 
             await JSRuntime.InvokeVoidAsync("alert", "접근이 허용되었습니다!");
-            await OnNext.InvokeAsync();  // OnNext 이벤트 발동
+            NavigationManager.NavigateTo("/showinfo");  // ShowInfo 컴포넌트로 이동
         }
         else
         {
@@ -81,6 +92,13 @@
 }
 
 <style>
+    h3 {
+        color: #ecf0f1;
+    }
+    h4 {
+        color: #ecf0f1;
+    }
+
     .step-container {
         background-color: #34495e;
         padding: 20px;

@@ -1,0 +1,263 @@
+@page "/showinfo"
+@using System.Text.Json
+@inject HttpClient HttpClient
+@inject NavigationManager NavigationManager
+@inject BoothStateService BoothState
+@inject IJSRuntime JSRuntime
+
+<div class="info-container">
+    <h2>부스 정보</h2>
+    
+    @if (isLoading)
+    {
+        <p>로딩 중...</p>
+    }
+    else if (boothData != null)
+    {
+        <div class="booth-info">
+            <h3>@boothData.company_name</h3>
+            <table class="info-table">
+                <tr>
+                    <th>부스 번호</th>
+                    <td>@boothData.booth_number</td>
+                </tr>
+                <tr>
+                    <th>설명</th>
+                    <td>@(string.IsNullOrEmpty(boothData.description) ? "입력된 정보 없음" : boothData.description)</td>
+                </tr>
+                <tr>
+                    <th>YouTube URL</th>
+                    <td>
+                        @if (!string.IsNullOrEmpty(boothData.youtubeurl))
+                        {
+                            <a href="@boothData.youtubeurl" target="_blank">@boothData.youtubeurl</a>
+                        }
+                        else
+                        {
+                            <span>입력된 정보 없음</span>
+                        }
+                    </td>
+                </tr>
+            </table>
+            
+            <h4>이미지</h4>
+            @if (!string.IsNullOrEmpty(boothData.postimageurl))
+            {
+                <div class="image-container">
+                    @{
+                        var processedUrl = ProcessImageUrl(boothData.postimageurl);
+                    }
+                    <img src="@processedUrl" alt="@boothData.company_name 이미지" class="responsive-image" />
+                </div>
+            }
+            else
+            {
+                <p>입력된 정보 없음</p>
+            }
+        </div>
+    }
+    else
+    {
+        <p>데이터를 불러오는 데 실패했습니다.</p>
+    }
+    
+    <button class="btn btn-primary" @onclick="GoToStep2">정보 입력</button>
+</div>
+
+@code {
+    private bool isLoading = true;
+    private BoothData? boothData;
+
+    [Parameter]
+    public EventCallback OnNext { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        if (string.IsNullOrEmpty(BoothState.BoothNumber))
+        {
+            NavigationManager.NavigateTo("/step1");
+            return;
+        }
+
+        await LoadBoothData();
+    }
+
+    private async Task LoadBoothData()
+    {
+        try
+        {
+            isLoading = true;
+            StateHasChanged();
+
+            var response = await HttpClient.GetAsync($"http://kgcompany.site/api/getColumnData.php?boothNumber={BoothState.BoothNumber}");
+            var content = await response.Content.ReadAsStringAsync();
+            Console.WriteLine($"API 응답: {content}"); // 디버깅용 로그
+
+            if (response.IsSuccessStatusCode)
+            {
+                if (!string.IsNullOrWhiteSpace(content) && content.StartsWith("{"))
+                {
+                    Console.WriteLine($"받은 JSON 데이터: {content}");
+                    var options = new JsonSerializerOptions
+                    {
+                        PropertyNameCaseInsensitive = true,
+                        AllowTrailingCommas = true,
+                        ReadCommentHandling = JsonCommentHandling.Skip
+                    };
+                    boothData = JsonSerializer.Deserialize<BoothData>(content, options);
+                    Console.WriteLine($"역직렬화 후 imageurl: {boothData?.postimageurl}");
+                }
+                else
+                {
+                    Console.WriteLine("API 응답이 유효한 JSON 형식이 아닙니다.");
+                    boothData = null;
+                }
+            }
+            else
+            {
+                Console.WriteLine($"API 호출 실패: {response.StatusCode}");
+                boothData = null;
+            }
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"데이터 로딩 중 오류 발생: {ex.Message}");
+            boothData = null;
+        }
+        finally
+        {
+            isLoading = false;
+            StateHasChanged();
+        }
+    }
+
+    private void GoToStep2()
+    {
+        NavigationManager.NavigateTo("/step2");
+    }
+
+    private string ProcessImageUrl(string url)
+    {
+        var processedUrl = url.Replace("\\/", "/");
+        Console.WriteLine($"URL 처리: '{url}' -> '{processedUrl}'");
+        return processedUrl;
+    }
+
+    private class BoothData
+    {
+        public string booth_number { get; set; } = "";
+        public string company_name { get; set; } = "";
+        public string description { get; set; } = "";
+        public string youtubeurl { get; set; } = "";
+        public string postimageurl { get; set; } = "";
+    }
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            await JSRuntime.InvokeVoidAsync("history.pushState", null, "", NavigationManager.Uri);
+            await JSRuntime.InvokeVoidAsync("window.addEventListener", "popstate", DotNetObjectReference.Create(this));
+        }
+    }
+
+    [JSInvokable]
+    public void OnPopState()
+    {
+        NavigationManager.NavigateTo("/showinfo", forceLoad: true);
+    }
+
+    public void Dispose()
+    {
+        JSRuntime.InvokeVoidAsync("window.removeEventListener", "popstate", DotNetObjectReference.Create(this));
+    }
+}
+
+<style>
+    .info-container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #34495e;
+        border-radius: 8px;
+        color: #ecf0f1;
+    }
+
+    .booth-info {
+        margin-bottom: 20px;
+    }
+
+    .video-container, .image-container {
+        margin-top: 20px;
+    }
+
+    .image-container {
+        width: 100%;
+        height: 300px;
+        max-width: 500px;
+        margin: 20px auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #2c3e50;
+        overflow: hidden;
+    }
+
+    .responsive-image {
+        max-width: 100%;
+        max-height: 100%;
+        object-fit: contain;
+    }
+
+    .btn {
+        padding: 10px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-weight: bold;
+    }
+
+    .btn-primary {
+        background-color: #3498db;
+        color: #fff;
+    }
+
+    .btn-primary:hover {
+        background-color: #2980b9;
+    }
+
+    .info-table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-bottom: 20px;
+    }
+
+    .info-table th, .info-table td {
+        padding: 10px;
+        border: 1px solid #ecf0f1;
+        text-align: left;
+    }
+
+    .info-table th {
+        background-color: #2c3e50;
+        font-weight: bold;
+    }
+
+    .info-table td {
+        background-color: #34495e;
+    }
+
+    h4 {
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    a {
+        color: #3498db;
+        text-decoration: none;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+</style>

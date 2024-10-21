@@ -1,4 +1,6 @@
+@page "/step3"
 @inject BoothStateService BoothState
+@inject NavigationManager NavigationManager
 
 @code {
     [Parameter]
@@ -10,19 +12,15 @@
 
     private void GoNext()
     {
-        if (OnNext.HasDelegate)
-        {
+ 
             SaveStep4Data(); // 다음으로 가기 전에 데이터 저장
-            OnNext.InvokeAsync();
-        }
+            NavigationManager.NavigateTo("/step4");
+
     }
 
     private void GoPrevious()
     {
-        if (OnPrevious.HasDelegate)
-        {
-            OnPrevious.InvokeAsync();
-        }
+        NavigationManager.NavigateTo("/step2");
     }
 
     private void SaveStep4Data()
@@ -31,35 +29,80 @@
     }
 }
 
-<h4>Step 3: YoutubeUrl</h4>
-<div class="input-container">
-    <input type="text" @bind="youtubeUrl" class="form-control" />
-</div>
-<div class="button-container">
-    <button class="btn btn-primary" @onclick="GoPrevious">Prev</button>
-    <button class="btn btn-primary" @onclick="GoNext">Next</button>
+<div class="step-container">
+    <h3 class="form-title">
+        @(string.IsNullOrEmpty(BoothState.CompanyName) ? "KGCOMPANY" : BoothState.CompanyName) 
+        @(string.IsNullOrEmpty(BoothState.BoothNumber) ? "" : $"- 부스 번호: {BoothState.BoothNumber}")
+    </h3>
+    <h4>Step 3: YoutubeUrl</h4>
+    <div class="input-container">
+        <textarea @bind="youtubeUrl" class="form-control" rows="6"></textarea>
+    </div>
+    <div class="button-container">
+        <button class="btn btn-primary" @onclick="GoPrevious">Prev</button>
+        <button class="btn btn-primary" @onclick="GoNext">Next</button>
+    </div>
 </div>
 
 <style>
+    h3, h4 {
+        color: #ecf0f1;
+    }
     .step-container {
         background-color: #34495e;
         padding: 20px;
         border-radius: 8px;
         width: 100%;
         max-width: 400px;
+        margin: auto; /* 가운데 정렬을 위해 추가 */
+        text-align: center; /* 내부 요소들을 가운데 정렬 */
     }
 
-    .form-group {
-        margin-bottom: 15px;
+    .form-title {
+        margin-bottom: 20px; /* form-title과 h4 사이의 간격 추가 */
+    }
+
+    .input-container {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: center; /* 입력 필드 가운데 정렬 */
+    }
+
+    .button-container {
+        display: flex;
+        justify-content: center; /* 버튼 가운데 정렬 */
+        gap: 10px; /* 버튼 사이의 간격 */
+    }
+
+    .btn {
+        padding: 10px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-weight: bold;
+        width: auto; /* 버튼 너비 자동 조정 */
+    }
+
+    .btn-primary {
+        background-color: #3498db;
+        color: #fff;
+    }
+
+    .btn-primary:hover {
+        background-color: #2980b9;
     }
 
     .form-control {
         width: 100%;
-        padding: 8px;
+        max-width: 400px;
+        padding: 10px;
         border: none;
         border-radius: 4px;
         background-color: #ecf0f1;
         color: #2c3e50;
+        resize: vertical; /* 수직 리사이즈만 허용 */
+        min-height: 100px; /* 최소 높이 설정 */
     }
 
     .btn {

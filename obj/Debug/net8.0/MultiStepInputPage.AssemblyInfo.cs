@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MultiStepInputPage")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a30ca08acf9aa294a35fc94505692cbad71e6495")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5b5132b69f7a9dd5e384b876ff344355932b3d00")]
 [assembly: System.Reflection.AssemblyProductAttribute("MultiStepInputPage")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MultiStepInputPage")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

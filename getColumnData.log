@@ -1,0 +1,7 @@
+[2024-10-21 22:53:06] 스크립트 시작
+[2024-10-21 22:53:06] 헤더 설정 완료
+[2024-10-21 22:53:06] 데이터베이스 설정 정보 로드
+[2024-10-21 22:53:06] 데이터베이스 연결 성공
+[2024-10-21 22:53:06] 요청된 부스 번호: A05
+[2024-10-21 22:53:06] SQL 쿼리: SELECT booth_number, companyname, description, youtubeurl, imageurl FROM ContentsKorea WHERE booth_number = ?
+[2024-10-21 22:53:06] SQL 준비 실패: Unknown column 'companyname' in 'field list'
